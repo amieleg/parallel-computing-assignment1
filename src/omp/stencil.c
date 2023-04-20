@@ -61,6 +61,12 @@ int main(int argc, char **argv)
     TIME(duration, Stencil(&in, &out, n, iterations););
     printf("This took %lfs, or ??? Gflops/s\n", duration);
 
+    for(int i = 0; i < n; i++)
+    {
+        printf("%lf ", out[i]);
+    }
+    printf("\n");
+
     free(in);
     free(out);
 
