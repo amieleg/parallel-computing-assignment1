@@ -28,7 +28,8 @@ void Stencil(REAL **in, REAL **out, size_t n, int iterations)
 
     for (int t = 1; t <= iterations; t++) {
         /* Update only the inner values. */
-        #pragma omp parallel {
+        #pragma omp parallel 
+        {
             #pragma omp for schedule(static, 1)
             for (int i = 1; i < n - 1; i++) {
                 (*out)[i] = a * (*in)[i - 1] +
@@ -36,13 +37,13 @@ void Stencil(REAL **in, REAL **out, size_t n, int iterations)
                     c * (*in)[i + 1];
             }
         }
-        /* The output of this iteration is the input of the next iteration (if there is one). */
         if (t != iterations) {
-            REAL *temp = *in;
-            *in = *out;
-            *out = temp;
+        REAL *temp = *in;
+        *in = *out;
+        *out = temp;
         }
     }
+    /* The output of this iteration is the input of the next iteration (if there is one). */
 }
 
 int main(int argc, char **argv)
