@@ -60,8 +60,8 @@ int main(int argc, char **argv)
 
     double duration;
     TIME(duration, Stencil(&in, &out, n, iterations););
-    double flops = ((n*5*iterations)/1000000000)/duration;
-    printf("This took %lfs, or %lf Gflops/s\n", duration, flops);
+    float gflops = ((float) (((float) n*5*iterations)/1000000000))/duration;
+    printf("This took %lfs, or %f Gflops/s\n", duration, gflops);
 
     if (show == 1)
     {
