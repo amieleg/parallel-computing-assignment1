@@ -44,13 +44,14 @@ void Stencil(REAL **in, REAL **out, size_t n, int iterations)
 
 int main(int argc, char **argv)
 {
-    if (argc != 3) {
-        printf("Please specify 2 arguments (n, iterations).\n");
+    if (argc != 4) {
+        printf("Please specify 3 arguments (n, iterations, show).\n");
         return EXIT_FAILURE;
     }
 
     size_t n = atoll(argv[1]);
     int iterations = atoi(argv[2]);
+    int show = atoi(argv[3]);
 
     REAL *in = calloc(n, sizeof(REAL));
     in[0] = 100;
@@ -59,13 +60,17 @@ int main(int argc, char **argv)
 
     double duration;
     TIME(duration, Stencil(&in, &out, n, iterations););
-    printf("This took %lfs, or ??? Gflops/s\n", duration);
+    double flops = ((n*5*iterations)/1000000000)/duration;
+    printf("This took %lfs, or %lf Gflops/s\n", duration, flops);
 
-    for(int i = 0; i < n; i++)
+    if (show == 1)
     {
-        printf("%lf ", out[i]);
+        for(int i = 0; i < n; i++)
+        {
+             printf("%lf ", out[i]);
+        }
+        printf("\n");
     }
-    printf("\n");
 
     free(in);
     free(out);
