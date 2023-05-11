@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <sys/time.h>
 #include <immintrin.h>
+#include <sched.h>
+#include <mpi.h>
 
 #define REAL double
 
@@ -48,6 +50,16 @@ int main(int argc, char **argv)
         printf("Please specify 3 arguments (n, iterations, show).\n");
         return EXIT_FAILURE;
     }
+
+    int my_rank, p;
+
+    MPI_Init(&argc, &argv);
+    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &p);
+
+    printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
+
+    MPI_Finalize();
 
     size_t n = atoll(argv[1]);
     int iterations = atoi(argv[2]);
