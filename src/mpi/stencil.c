@@ -51,41 +51,94 @@ int main(int argc, char **argv)
         return EXIT_FAILURE;
     }
 
-    int my_rank, p;
-
-    MPI_Init(&argc, &argv);
-    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &p);
-
-    printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
-
-    MPI_Finalize();
-
     size_t n = atoll(argv[1]);
     int iterations = atoi(argv[2]);
     int show = atoi(argv[3]);
 
-    REAL *in = calloc(n, sizeof(REAL));
-    in[0] = 100;
-    in[n - 1] = 1000;
-    REAL *out = malloc(n * sizeof(REAL));
+    int my_rank, size, p;
 
-    double duration;
-    TIME(duration, Stencil(&in, &out, n, iterations););
-    float gflops = ((float) (((float) n*5*iterations)/1000000000))/duration;
-    printf("This took %lfs, or %f Gflops/s\n", duration, gflops);
+    MPI_Init(&argc, &argv);
+    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+    int viewsize = n / (size-1);
+
+    printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
+
+    int workerno = my_rank - 1;
+
+    REAL *in = calloc(viewsize, sizeof(REAL));
+    REAL *out = malloc(viewsize * sizeof(REAL));
+
+    if (workerno == 0)
+    {
+        in[0] = 100;
+    }
+    if (workerno == (size-2))
+    {
+        in[viewsize-1] = 1000;
+    }
+    REAL left_val;
+    REAL right_val;
+    REAL send_left;
+    REAL send_right;
+    for(int t = 0; t < iterations; t++) 
+    {
+        send_left = in[0];
+        send_right = in[viewsize-1];
+        MPI_Send(&send_left, 1, MPI_DOUBLE, my_rank-1, 0, MPI_COMM_WORLD);
+        MPI_Send(&send_right, 1, MPI_DOUBLE, my_rank+1, 1, MPI_COMM_WORLD);
+
+        for(int i = 0; i < viewsize; i++)
+        {
+            if(i == 0)
+            {
+                if(my_rank != 0)
+                {
+                    MPI_Recv(&left_val, 1, MPI_DOUBLE, my_rank-1, 1, MPI_COMM_WORLD, MPI_IGNORE_STATUS);
+                    out[i] = left_val * a + in[i] * b + in[i+1] * c;
+                }
+            }
+            else if(i == viewsize - 1)
+            {
+                if(my_rank != size-1)
+                {
+                    MPI_Recv(&right_val, 1, MPI_DOUBLE, my_rank+1, 0, MPI_COMM_WORLD, MPI_IGNORE_STATUS);
+                    out[i] = in[i-1] * a + in[i] * b + right_val * c;
+                }
+            }
+            else
+            {
+                out[i] = in[i-1] * a + in[i] * b + in[i+1] * c;
+            }
+        }
+
+        if (t != iterations) {
+            REAL *temp = *in;
+            *in = *out;
+            *out = temp;
+        }
+    }
 
     if (show == 1)
     {
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i < viewsize; i++)
         {
              printf("%lf ", out[i]);
         }
         printf("\n");
     }
+    
+    if (my_rank != 0)
+    {
 
-    free(in);
-    free(out);
+    }
+    else
+    {
+
+    }
+
+    MPI_Finalize();
 
     return EXIT_SUCCESS;
 }
