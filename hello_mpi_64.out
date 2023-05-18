@@ -1,0 +1,29 @@
+
+
+###############################################################################
+Science Cluster
+Job 134402 for user 'imelse'
+Finished at: Thu May 18 15:00:23 CEST 2023
+
+Job details:
+============
+
+Name                : mpi_stencil_64.sh
+User                : imelse
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 128
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-18T14:42:22
+Start               : 2023-05-18T14:54:54
+End                 : 2023-05-18T15:00:22
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:28
+Used CPU time       : 00:01:46 (efficiency:  0.25%)
+% User (Computation): 21.10%
+% System (I/O)      : 78.89%
+Mem reserved        : 128G
+Max Mem used        : 15.93G (,cn124,cn129,cn130)
+Max Disk Write      : 40.96K (,cn124,cn129,cn130)
+Max Disk Read       : 13.49M (,cn124,cn129,cn130)
+

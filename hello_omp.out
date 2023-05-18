@@ -1,0 +1,120 @@
+make: 'bin/hello_world_omp' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 111975 for user 'imelse'
+Finished at: Fri Apr 28 15:55:06 CEST 2023
+
+Job details:
+============
+
+Name                : omp_hello.sh
+User                : imelse
+Partition           : csmpi_fpga_short
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-28T15:55:05
+Start               : 2023-04-28T15:55:06
+End                 : 2023-04-28T15:55:06
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 93.88%
+% System (I/O)      :  4.08%
+Mem reserved        : 64G
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+make: 'bin/hello_world_omp' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 112276 for user 'imelse'
+Finished at: Sat Apr 29 10:25:20 CEST 2023
+
+Job details:
+============
+
+Name                : omp_hello.sh
+User                : imelse
+Partition           : csmpi_fpga_short
+Nodes               : cn132
+Cores               : 32
+State               : RUNNING
+Submit              : 2023-04-29T10:25:19
+Start               : 2023-04-29T10:25:20
+End                 : --
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 72.73%
+% System (I/O)      : 25.45%
+Mem reserved        : 64G
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+make: 'bin/hello_world_omp' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 112278 for user 'imelse'
+Finished at: Sat Apr 29 10:28:08 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-29T10:28:07
+Start               : 2023-04-29T10:28:08
+End                 : 2023-04-29T10:28:08
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 95.80%
+% System (I/O)      :  3.90%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+make: 'bin/hello_world_omp' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 128574 for user 'imelse'
+Finished at: Thu May 11 16:20:55 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-05-11T16:20:54
+Start               : 2023-05-11T16:20:55
+End                 : 2023-05-11T16:20:55
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 33.33%
+% System (I/O)      : 64.81%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+

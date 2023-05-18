@@ -1,0 +1,246 @@
+make: *** No rule to make target 'bin/2dstencil_omp'.  Stop.
+/var/spool/slurm/slurmd/job111989/slurm_script: 13: bin/2dstencil_omp: not found
+/var/spool/slurm/slurmd/job111989/slurm_script: 13: bin/2dstencil_omp: not found
+/var/spool/slurm/slurmd/job111989/slurm_script: 13: bin/2dstencil_omp: not found
+/var/spool/slurm/slurmd/job111989/slurm_script: 13: bin/2dstencil_omp: not found
+/var/spool/slurm/slurmd/job111989/slurm_script: 13: bin/2dstencil_omp: not found
+/var/spool/slurm/slurmd/job111989/slurm_script: 13: bin/2dstencil_omp: not found
+
+
+###############################################################################
+Science Cluster
+Job 111989 for user 'imelse'
+Finished at: Fri Apr 28 16:00:00 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : FAILED
+Submit              : 2023-04-28T16:00:00
+Start               : 2023-04-28T16:00:00
+End                 : 2023-04-28T16:00:00
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 100.00%
+% System (I/O)      :  0.00%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+gcc -Ofast -march=native -mtune=native -Wall -Werror src/omp/stencil.c -o bin/stencil_omp -lm -fopenmp
+
+
+###############################################################################
+Science Cluster
+Job 112277 for user 'imelse'
+Finished at: Sat Apr 29 10:26:05 CEST 2023
+
+Job details:
+============
+
+Name                : seq_stencil.sh
+User                : imelse
+Partition           : csmpi_fpga_short
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-29T10:26:05
+Start               : 2023-04-29T10:26:05
+End                 : 2023-04-29T10:26:05
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 95.13%
+% System (I/O)      :  4.87%
+Mem reserved        : 64G
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+make: 'bin/stencil_omp' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 112279 for user 'imelse'
+Finished at: Sat Apr 29 10:28:37 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-29T10:28:37
+Start               : 2023-04-29T10:28:37
+End                 : 2023-04-29T10:28:37
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 100.00%
+% System (I/O)      :  0.00%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+make: 'bin/stencil_omp' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 112280 for user 'imelse'
+Finished at: Sat Apr 29 10:30:19 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-29T10:30:18
+Start               : 2023-04-29T10:30:19
+End                 : 2023-04-29T10:30:19
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 97.30%
+% System (I/O)      :  2.70%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+gcc -Ofast -march=native -mtune=native -Wall -Werror src/seq/stencil.c -o bin/stencil_seq -lm
+
+
+###############################################################################
+Science Cluster
+Job 112281 for user 'imelse'
+Finished at: Sat Apr 29 10:31:14 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-29T10:31:14
+Start               : 2023-04-29T10:31:14
+End                 : 2023-04-29T10:31:14
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 89.89%
+% System (I/O)      : 10.11%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+make: 'bin/stencil_seq' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 112282 for user 'imelse'
+Finished at: Sat Apr 29 10:41:39 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-29T10:41:39
+Start               : 2023-04-29T10:41:39
+End                 : 2023-04-29T10:41:39
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 55.56%
+% System (I/O)      : 33.33%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+make: 'bin/stencil_seq' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 112283 for user 'imelse'
+Finished at: Sat Apr 29 10:43:46 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-29T10:43:46
+Start               : 2023-04-29T10:43:46
+End                 : 2023-04-29T10:43:46
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 77.78%
+% System (I/O)      : 11.11%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
+make: 'bin/stencil_seq' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 112284 for user 'imelse'
+Finished at: Sat Apr 29 10:44:16 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : imelse
+Partition           : 
+Nodes               : cn132
+Cores               : 32
+State               : COMPLETED
+Submit              : 2023-04-29T10:44:16
+Start               : 2023-04-29T10:44:16
+End                 : 2023-04-29T10:44:16
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 55.56%
+% System (I/O)      : 33.33%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn132)
+Max Disk Write      : 0.00  (cn132)
+Max Disk Read       : 0.00  (cn132)
+
