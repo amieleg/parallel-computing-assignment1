@@ -60,8 +60,12 @@ int main(int argc, char **argv)
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
+    
+    int viewsize = n / size;
 
-    int viewsize = n / (size-1);
+    if(my_rank < (n % size)) {
+        viewsize++;
+    }
 
     printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
 
