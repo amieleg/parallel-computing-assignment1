@@ -89,8 +89,16 @@ int main(int argc, char **argv)
     {
         send_left = in[0];
         send_right = in[viewsize-1];
-        MPI_Send(&send_left, 1, MPI_DOUBLE, my_rank-1, 0, MPI_COMM_WORLD);
-        MPI_Send(&send_right, 1, MPI_DOUBLE, my_rank+1, 1, MPI_COMM_WORLD);
+        if(my_rank != 0)
+        {
+            printf("rank %d sending to the left", my_rank);
+            MPI_Send(&send_left, 1, MPI_DOUBLE, my_rank-1, 0, MPI_COMM_WORLD);
+        }
+        if(my_rank != size-1)
+        {
+            printf("rank %d sending to the right", my_rank);
+            MPI_Send(&send_right, 1, MPI_DOUBLE, my_rank+1, 1, MPI_COMM_WORLD);
+        }
 
         for(int i = 0; i < viewsize; i++)
         {
@@ -102,6 +110,10 @@ int main(int argc, char **argv)
                     MPI_Recv(&left_val, 1, MPI_DOUBLE, my_rank-1, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                     out[i] = left_val * a + in[i] * b + in[i+1] * c;
                 }
+                else
+                {
+                    out[i] = in[i];
+                }
             }
             else if(i == viewsize - 1)
             {
@@ -110,6 +122,10 @@ int main(int argc, char **argv)
                     printf("my rank %i", my_rank);
                     MPI_Recv(&right_val, 1, MPI_DOUBLE, my_rank+1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                     out[i] = in[i-1] * a + in[i] * b + right_val * c;
+                }
+                else
+                {
+                    out[i] = in[i];
                 }
             }
             else
@@ -127,6 +143,7 @@ int main(int argc, char **argv)
 
     if (show == 1)
     {
+        printf("my rank %d ", my_rank);
         for(int i = 0; i < viewsize; i++)
         {
              printf("%lf ", out[i]);
