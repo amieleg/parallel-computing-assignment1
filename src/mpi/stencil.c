@@ -65,16 +65,15 @@ int main(int argc, char **argv)
 
     printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
 
-    int workerno = my_rank - 1;
 
     REAL *in = calloc(viewsize, sizeof(REAL));
     REAL *out = malloc(viewsize * sizeof(REAL));
 
-    if (workerno == 0)
+    if (my_rank == 0)
     {
         in[0] = 100;
     }
-    if (workerno == (size-2))
+    if (my_rank == (size-1))
     {
         in[viewsize-1] = 1000;
     }
@@ -95,7 +94,8 @@ int main(int argc, char **argv)
             {
                 if(my_rank != 0)
                 {
-                    MPI_Recv(&left_val, 1, MPI_DOUBLE, my_rank-1, 1, MPI_COMM_WORLD, MPI_IGNORE_STATUS);
+                    printf("my rank %i", my_rank);
+                    MPI_Recv(&left_val, 1, MPI_DOUBLE, my_rank-1, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                     out[i] = left_val * a + in[i] * b + in[i+1] * c;
                 }
             }
@@ -103,7 +103,8 @@ int main(int argc, char **argv)
             {
                 if(my_rank != size-1)
                 {
-                    MPI_Recv(&right_val, 1, MPI_DOUBLE, my_rank+1, 0, MPI_COMM_WORLD, MPI_IGNORE_STATUS);
+                    printf("my rank %i", my_rank);
+                    MPI_Recv(&right_val, 1, MPI_DOUBLE, my_rank+1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                     out[i] = in[i-1] * a + in[i] * b + right_val * c;
                 }
             }
@@ -114,9 +115,9 @@ int main(int argc, char **argv)
         }
 
         if (t != iterations) {
-            REAL *temp = *in;
+            REAL *temp = in;
             *in = *out;
-            *out = temp;
+            *out = *temp;
         }
     }
 
