@@ -62,10 +62,13 @@ int main(int argc, char **argv)
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     
     int viewsize = n / size;
+    int shift = 0;
 
-    if(my_rank < (n % size)) {
-        viewsize++;
+    if(my_rank == 0) {
+        shift = n % size;
     }
+
+    viewsize+= shift;
 
     printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
 
@@ -134,7 +137,7 @@ int main(int argc, char **argv)
             }
         }
 
-        if (t != iterations) {
+        if (t != iterations-1) {
             REAL *temp = in;
             *in = *out;
             *out = *temp;
@@ -151,13 +154,28 @@ int main(int argc, char **argv)
         printf("\n");
     }
     
-    if (my_rank != 0)
-    {
+    REAL *output = NULL;
 
+    if(my_rank == 0)
+    {
+        viewsize-= shift;
+        output = malloc(n * sizeof(REAL));
+
+        for(int i = 0; i < shift; i++) {
+            output[i] = out[i];
+        }
     }
-    else
-    {
 
+    MPI_Gather(out + shift, viewsize, MPI_DOUBLE, output + shift, viewsize, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+    if (show == 1 && my_rank == 0)
+    {
+        printf("After gathering:");
+        for(int i = 0; i < n; i++)
+        {
+             printf("%lf ", output[i]);
+        }
+        printf("\n");
     }
 
     MPI_Finalize();
