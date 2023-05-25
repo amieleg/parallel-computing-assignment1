@@ -30,7 +30,7 @@ void swap(REAL** in, REAL** out)
     *out = temp;
 }
 
-void stencil(size_t n, int iterations, int show, int argc, char** argv)
+void stencil(size_t n, int iterations, int show)
 {
     int my_rank, size;
 
