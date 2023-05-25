@@ -171,7 +171,7 @@ int main(int argc, char **argv)
 
     double duration;
     MPI_Init(&argc, &argv);
-    TIME(duration, stencil(n, iterations, show, argc, argv););
+    TIME(duration, stencil(n, iterations, show););
     int my_rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
     if(my_rank == 0) {
