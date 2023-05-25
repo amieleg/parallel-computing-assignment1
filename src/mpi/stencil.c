@@ -60,10 +60,9 @@ void stencil(size_t n, int iterations, int show)
     {
         in[viewsize-1] = 1000;
     }
-    REAL left_val;
-    REAL right_val;
-    REAL send_left;
-    REAL send_right;
+
+    REAL left_val, right_val, send_left, send_right;
+    
     for(int t = 0; t < iterations; t++) 
     {
         //printf("iteration: %d", t);
@@ -155,6 +154,10 @@ void stencil(size_t n, int iterations, int show)
         }
         printf("\n");
     }
+
+    free(in);
+    free(out);
+    free(output);
 }
 
 

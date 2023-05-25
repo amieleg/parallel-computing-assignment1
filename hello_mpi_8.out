@@ -1,0 +1,60 @@
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 160137 for user 'dfurmanczyk'
+Finished at: Thu May 25 20:39:39 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn130
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-25T20:38:36
+Start               : 2023-05-25T20:39:37
+End                 : 2023-05-25T20:39:39
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:02
+Used CPU time       : 00:00:01 (efficiency:  4.02%)
+% User (Computation): 42.18%
+% System (I/O)      : 57.74%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn130)
+Max Disk Write      : 0.00  (cn130)
+Max Disk Read       : 0.00  (cn130)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 160161 for user 'dfurmanczyk'
+Finished at: Thu May 25 20:44:34 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn130
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-25T20:42:45
+Start               : 2023-05-25T20:44:32
+End                 : 2023-05-25T20:44:34
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:02
+Used CPU time       : 00:00:01 (efficiency:  4.48%)
+% User (Computation): 42.51%
+% System (I/O)      : 57.42%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn130)
+Max Disk Write      : 0.00  (cn130)
+Max Disk Read       : 0.00  (cn130)
+

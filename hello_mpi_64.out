@@ -1,29 +1,110 @@
+make: 'bin/stencil_mpi' is up to date.
+double free or corruption (out)
+[cn131:1960250] *** Process received signal ***
+[cn131:1960250] Signal: Aborted (6)
+[cn131:1960250] Signal code:  (-6)
+[cn131:1960250] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x148b492c9520]
+[cn131:1960250] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x148b4931da7c]
+[cn131:1960250] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x148b492c9476]
+[cn131:1960250] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x148b492af7f3]
+[cn131:1960250] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x896f6)[0x148b493106f6]
+[cn131:1960250] [ 5] /lib/x86_64-linux-gnu/libc.so.6(+0xa0d7c)[0x148b49327d7c]
+[cn131:1960250] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0xa2ef0)[0x148b49329ef0]
+[cn131:1960250] [ 7] /lib/x86_64-linux-gnu/libc.so.6(free+0x73)[0x148b4932c4d3]
+[cn131:1960250] [ 8] bin/stencil_mpi(+0x18fe)[0x5651fc9098fe]
+[cn131:1960250] [ 9] bin/stencil_mpi(+0x1359)[0x5651fc909359]
+[cn131:1960250] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x148b492b0d90]
+[cn131:1960250] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x148b492b0e40]
+[cn131:1960250] [12] bin/stencil_mpi(+0x1465)[0x5651fc909465]
+[cn131:1960250] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 511 with PID 1960250 on node cn131 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
 
 
 ###############################################################################
 Science Cluster
-Job 134402 for user 'imelse'
-Finished at: Thu May 18 15:00:23 CEST 2023
+Job 160140 for user 'dfurmanczyk'
+Finished at: Thu May 25 20:39:36 CEST 2023
 
 Job details:
 ============
 
-Name                : mpi_stencil_64.sh
-User                : imelse
+Name                : run_mpi_64.sh
+User                : dfurmanczyk
 Partition           : csmpi_short
 Nodes               : cn[124-131]
 Cores               : 128
-State               : CANCELLED,TIMEOUT
-Submit              : 2023-05-18T14:42:22
-Start               : 2023-05-18T14:54:54
-End                 : 2023-05-18T15:00:22
+State               : COMPLETED
+Submit              : 2023-05-25T20:38:36
+Start               : 2023-05-25T20:39:24
+End                 : 2023-05-25T20:39:36
 Reserved walltime   : 00:05:00
-Used walltime       : 00:05:28
-Used CPU time       : 00:01:46 (efficiency:  0.25%)
-% User (Computation): 21.10%
-% System (I/O)      : 78.89%
+Used walltime       : 00:00:12
+Used CPU time       : 00:06:53 (efficiency: 26.90%)
+% User (Computation): 38.29%
+% System (I/O)      : 61.71%
 Mem reserved        : 128G
-Max Mem used        : 15.93G (,cn124,cn129,cn130)
-Max Disk Write      : 40.96K (,cn124,cn129,cn130)
-Max Disk Read       : 13.49M (,cn124,cn129,cn130)
+Max Mem used        : 4.33M (cn124,cn128,cn129,cn131)
+Max Disk Write      : 0.00  (cn124,cn128,cn129,cn131)
+Max Disk Read       : 0.00  (cn124,cn128,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+double free or corruption (out)
+[cn131:1965304] *** Process received signal ***
+[cn131:1965304] Signal: Aborted (6)
+[cn131:1965304] Signal code:  (-6)
+[cn131:1965304] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x1522d98a4520]
+[cn131:1965304] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x1522d98f8a7c]
+[cn131:1965304] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x1522d98a4476]
+[cn131:1965304] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x1522d988a7f3]
+[cn131:1965304] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x896f6)[0x1522d98eb6f6]
+[cn131:1965304] [ 5] /lib/x86_64-linux-gnu/libc.so.6(+0xa0d7c)[0x1522d9902d7c]
+[cn131:1965304] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0xa2ef0)[0x1522d9904ef0]
+[cn131:1965304] [ 7] /lib/x86_64-linux-gnu/libc.so.6(free+0x73)[0x1522d99074d3]
+[cn131:1965304] [ 8] bin/stencil_mpi(+0x18fe)[0x55a62f1628fe]
+[cn131:1965304] [ 9] bin/stencil_mpi(+0x1359)[0x55a62f162359]
+[cn131:1965304] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x1522d988bd90]
+[cn131:1965304] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x1522d988be40]
+[cn131:1965304] [12] bin/stencil_mpi(+0x1465)[0x55a62f162465]
+[cn131:1965304] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 511 with PID 1965304 on node cn131 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+
+###############################################################################
+Science Cluster
+Job 160164 for user 'dfurmanczyk'
+Finished at: Thu May 25 20:44:32 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_64.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 128
+State               : COMPLETED
+Submit              : 2023-05-25T20:42:45
+Start               : 2023-05-25T20:44:19
+End                 : 2023-05-25T20:44:32
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:13
+Used CPU time       : 00:06:59 (efficiency: 25.20%)
+% User (Computation): 38.03%
+% System (I/O)      : 61.97%
+Mem reserved        : 128G
+Max Mem used        : 4.33M (cn124,cn128,cn130,cn131)
+Max Disk Write      : 0.00  (cn124,cn128,cn130,cn131)
+Max Disk Read       : 0.00  (cn124,cn128,cn130,cn131)
 
