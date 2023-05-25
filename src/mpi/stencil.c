@@ -34,7 +34,6 @@ void stencil(size_t n, int iterations, int show, int argc, char** argv)
 {
     int my_rank, size;
 
-    MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     
@@ -156,9 +155,8 @@ void stencil(size_t n, int iterations, int show, int argc, char** argv)
         }
         printf("\n");
     }
-
-    MPI_Finalize();
 }
+
 
 int main(int argc, char **argv)
 {
@@ -172,9 +170,15 @@ int main(int argc, char **argv)
     int show = atoi(argv[3]);
 
     double duration;
+    MPI_Init(&argc, &argv);
     TIME(duration, stencil(n, iterations, show, argc, argv););
-    float gflops = ((float) (((float) n*5*iterations)/1000000000))/duration;
-    printf("This took %lfs, or %f Gflops/s\n", duration, gflops);
+    int my_rank;
+    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
+    if(my_rank == 0) {
+        float gflops = ((float) (((float) n*5*iterations)/1000000000))/duration;
+        printf("This took %lfs, or %f Gflops/s\n", duration, gflops);
+    }
+    MPI_Finalize();
 
     return EXIT_SUCCESS;
 }
