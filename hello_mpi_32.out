@@ -108,3 +108,99 @@ Max Mem used        : 4.03M (cn124,cn125,cn127)
 Max Disk Write      : 0.00  (cn124,cn125,cn127)
 Max Disk Read       : 0.00  (cn124,cn125,cn127)
 
+make: 'bin/stencil_mpi' is up to date.
+double free or corruption (out)
+[cn127:2315744] *** Process received signal ***
+[cn127:2315744] Signal: Aborted (6)
+[cn127:2315744] Signal code:  (-6)
+[cn127:2315744] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x150caa1ed520]
+[cn127:2315744] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x150caa241a7c]
+[cn127:2315744] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x150caa1ed476]
+[cn127:2315744] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x150caa1d37f3]
+[cn127:2315744] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x896f6)[0x150caa2346f6]
+[cn127:2315744] [ 5] /lib/x86_64-linux-gnu/libc.so.6(+0xa0d7c)[0x150caa24bd7c]
+[cn127:2315744] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0xa2ef0)[0x150caa24def0]
+[cn127:2315744] [ 7] /lib/x86_64-linux-gnu/libc.so.6(free+0x73)[0x150caa2504d3]
+[cn127:2315744] [ 8] bin/stencil_mpi(+0x18fe)[0x557231f518fe]
+[cn127:2315744] [ 9] bin/stencil_mpi(+0x1359)[0x557231f51359]
+[cn127:2315744] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x150caa1d4d90]
+[cn127:2315744] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x150caa1d4e40]
+[cn127:2315744] [12] bin/stencil_mpi(+0x1465)[0x557231f51465]
+[cn127:2315744] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 127 with PID 2315744 on node cn127 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+
+###############################################################################
+Science Cluster
+Job 160168 for user 'dfurmanczyk'
+Finished at: Thu May 25 20:50:35 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-25T20:50:08
+Start               : 2023-05-25T20:50:25
+End                 : 2023-05-25T20:50:35
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:10
+Used CPU time       : 00:01:45 (efficiency: 16.44%)
+% User (Computation): 35.55%
+% System (I/O)      : 64.45%
+Mem reserved        : 64G
+Max Mem used        : 4.03M (cn124,cn125,cn126)
+Max Disk Write      : 0.00  (cn124,cn125,cn126)
+Max Disk Read       : 0.00  (cn124,cn125,cn126)
+
+make: 'bin/stencil_mpi' is up to date.
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn124
+  System call: unlink(2) /dev/shm/vader_segment.cn124.38903.24bd0001.1
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn124:2534841] 31 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn124:2534841] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 160173 for user 'dfurmanczyk'
+Finished at: Thu May 25 21:05:40 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-25T20:59:08
+Start               : 2023-05-25T21:05:01
+End                 : 2023-05-25T21:05:40
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:39
+Used CPU time       : 00:06:56 (efficiency: 16.67%)
+% User (Computation): 34.24%
+% System (I/O)      : 65.76%
+Mem reserved        : 64G
+Max Mem used        : 4.03M (cn124,cn125,cn126)
+Max Disk Write      : 0.00  (cn124,cn125,cn126)
+Max Disk Read       : 0.00  (cn124,cn125,cn126)
+

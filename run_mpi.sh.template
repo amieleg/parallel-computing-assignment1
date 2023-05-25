@@ -14,7 +14,7 @@ make bin/stencil_mpi
 
 #echo "running like a madman" > results/stencil_mpi_NTASKS.txt
 # N ITERS SHOW
-for N in 100 1000 10000 100000; do
+for N in 625 625000 625000000; do
     # REMOVE -N NTAKS and --oversubscribe on the SLURM!!!!
     mpirun -N NTASKS --oversubscribe bin/stencil_mpi $N 1 0 > results/temp_results.txt
     echo $N NTASKS > results/temp_params.txt

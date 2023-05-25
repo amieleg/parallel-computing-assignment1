@@ -108,3 +108,88 @@ Max Mem used        : 4.33M (cn124,cn128,cn130,cn131)
 Max Disk Write      : 0.00  (cn124,cn128,cn130,cn131)
 Max Disk Read       : 0.00  (cn124,cn128,cn130,cn131)
 
+make: 'bin/stencil_mpi' is up to date.
+double free or corruption (out)
+[cn131:1970780] *** Process received signal ***
+[cn131:1970780] Signal: Aborted (6)
+[cn131:1970780] Signal code:  (-6)
+[cn131:1970780] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x1534ccd18520]
+[cn131:1970780] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x1534ccd6ca7c]
+[cn131:1970780] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x1534ccd18476]
+[cn131:1970780] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x1534cccfe7f3]
+[cn131:1970780] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x896f6)[0x1534ccd5f6f6]
+[cn131:1970780] [ 5] /lib/x86_64-linux-gnu/libc.so.6(+0xa0d7c)[0x1534ccd76d7c]
+[cn131:1970780] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0xa2ef0)[0x1534ccd78ef0]
+[cn131:1970780] [ 7] /lib/x86_64-linux-gnu/libc.so.6(free+0x73)[0x1534ccd7b4d3]
+[cn131:1970780] [ 8] bin/stencil_mpi(+0x18fe)[0x564b297668fe]
+[cn131:1970780] [ 9] bin/stencil_mpi(+0x1359)[0x564b29766359]
+[cn131:1970780] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x1534cccffd90]
+[cn131:1970780] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x1534cccffe40]
+[cn131:1970780] [12] bin/stencil_mpi(+0x1465)[0x564b29766465]
+[cn131:1970780] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 511 with PID 1970780 on node cn131 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+
+###############################################################################
+Science Cluster
+Job 160169 for user 'dfurmanczyk'
+Finished at: Thu May 25 20:50:23 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_64.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 128
+State               : COMPLETED
+Submit              : 2023-05-25T20:50:08
+Start               : 2023-05-25T20:50:10
+End                 : 2023-05-25T20:50:23
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:13
+Used CPU time       : 00:06:58 (efficiency: 25.17%)
+% User (Computation): 40.09%
+% System (I/O)      : 59.91%
+Mem reserved        : 128G
+Max Mem used        : 4.33M (cn124,cn127,cn128,cn129,cn131)
+Max Disk Write      : 0.00  (cn124,cn127,cn128,cn129,cn131)
+Max Disk Read       : 0.00  (cn124,cn127,cn128,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 160174 for user 'dfurmanczyk'
+Finished at: Thu May 25 21:05:01 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_64.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 128
+State               : COMPLETED
+Submit              : 2023-05-25T20:59:08
+Start               : 2023-05-25T21:04:16
+End                 : 2023-05-25T21:05:01
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:45
+Used CPU time       : 00:31:24 (efficiency: 32.72%)
+% User (Computation): 38.86%
+% System (I/O)      : 61.14%
+Mem reserved        : 128G
+Max Mem used        : 4.33M (cn124,cn128,cn129)
+Max Disk Write      : 0.00  (cn124,cn128,cn129)
+Max Disk Read       : 0.00  (cn124,cn128,cn129)
+
