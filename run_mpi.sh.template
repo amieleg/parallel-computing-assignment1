@@ -13,4 +13,7 @@
 make bin/stencil_mpi
 
 #echo "running like a madman" > results/stencil_mpi_NTASKS.txt
-mpirun -N 2 bin/stencil_mpi 24 10 0 > results/stencil_mpi_NTASKS.txt
+# N ITERS SHOW
+for N in 100, 1000, 10000, 100000; do
+    mpirun bin/stencil_mpi $N 100 0
+done
