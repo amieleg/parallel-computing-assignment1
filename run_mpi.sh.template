@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#SBATCH --account=csmpi
+#SBATCH --ntasks=4
+#SBATCH --nodes=4
+#SBATCH --ntasks-per-node=8
+#SBATCH --threads-per-core=1
+#SBATCH --partition=csmpi_short
+#SBATCH --time=00:05:00
+#SBATCH --output=hello_mpi_NTASKS.out
+
+# Compile on the machine, not the head node
+make bin/stencil_mpi
+
+#echo "running like a madman" > results/stencil_mpi_NTASKS.txt
+mpirun -N 2 bin/stencil_mpi 24 10 0 > results/stencil_mpi_NTASKS.txt
