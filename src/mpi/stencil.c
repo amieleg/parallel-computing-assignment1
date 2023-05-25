@@ -176,7 +176,7 @@ int main(int argc, char **argv)
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
     if(my_rank == 0) {
         float gflops = ((float) (((float) n*5*iterations)/1000000000))/duration;
-        printf("This took %lfs, or %f Gflops/s\n", duration, gflops);
+        printf("%lfs, %f\n", duration, gflops);
     }
     MPI_Finalize();
 
