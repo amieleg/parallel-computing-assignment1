@@ -22,27 +22,6 @@ const REAL a = 0.1;
 const REAL b = 0.2;
 const REAL c = 0.3;
 
-void Stencil(REAL **in, REAL **out, size_t n, int iterations)
-{
-    (*out)[0] = (*in)[0];
-    (*out)[n - 1] = (*in)[n - 1];
-
-    for (int t = 1; t <= iterations; t++) {
-        /* Update only the inner values. */
-        for (int i = 1; i < n - 1; i++) {
-            (*out)[i] = a * (*in)[i - 1] +
-                        b * (*in)[i] +
-                        c * (*in)[i + 1];
-        }
-
-        /* The output of this iteration is the input of the next iteration (if there is one). */
-        if (t != iterations) {
-            REAL *temp = *in;
-            *in = *out;
-            *out = temp;
-        }
-    }
-}
 
 void swap(REAL** in, REAL** out)
 {
@@ -51,18 +30,9 @@ void swap(REAL** in, REAL** out)
     *out = temp;
 }
 
-int main(int argc, char **argv)
+void stencil(size_t n, int iterations, int show, int argc, char** argv)
 {
-    if (argc != 4) {
-        printf("Please specify 3 arguments (n, iterations, show).\n");
-        return EXIT_FAILURE;
-    }
-
-    size_t n = atoll(argv[1]);
-    int iterations = atoi(argv[2]);
-    int show = atoi(argv[3]);
-
-    int my_rank, size, p;
+    int my_rank, size;
 
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
@@ -77,7 +47,7 @@ int main(int argc, char **argv)
 
     viewsize+= shift;
 
-    printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
+    //printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
 
 
     REAL *in = calloc(viewsize, sizeof(REAL));
@@ -152,6 +122,7 @@ int main(int argc, char **argv)
         }
     }
 
+    /*
     if (show == 1)
     {
         printf("my rank %d ", my_rank);
@@ -160,7 +131,7 @@ int main(int argc, char **argv)
              printf("%lf ", out[i]);
         }
         printf("\n");
-    }
+    }*/
     
     REAL *output = NULL;
 
@@ -187,6 +158,23 @@ int main(int argc, char **argv)
     }
 
     MPI_Finalize();
+}
+
+int main(int argc, char **argv)
+{
+    if (argc != 4) {
+        printf("Please specify 3 arguments (n, iterations, show).\n");
+        return EXIT_FAILURE;
+    }
+
+    size_t n = atoll(argv[1]);
+    int iterations = atoi(argv[2]);
+    int show = atoi(argv[3]);
+
+    double duration;
+    TIME(duration, stencil(n, iterations, show, argc, argv););
+    float gflops = ((float) (((float) n*5*iterations)/1000000000))/duration;
+    printf("This took %lfs, or %f Gflops/s\n", duration, gflops);
 
     return EXIT_SUCCESS;
 }
