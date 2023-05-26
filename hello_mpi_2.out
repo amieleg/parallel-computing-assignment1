@@ -62,3 +62,187 @@ Max Disk Read       : 16.10M (,cn130,cn131)
 
 make: 'bin/stencil_mpi' is up to date.
 make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 161537 ON cn130 CANCELLED AT 2023-05-26T14:55:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 161537 for user 'dfurmanczyk'
+Finished at: Fri May 26 14:55:46 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_2.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 4
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T14:47:06
+Start               : 2023-05-26T14:50:43
+End                 : 2023-05-26T14:55:46
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:03
+Used CPU time       : 00:00:12 (efficiency:  1.04%)
+% User (Computation): 11.39%
+% System (I/O)      : 88.61%
+Mem reserved        : 4G
+Max Mem used        : 2.98G (,cn130,cn131)
+Max Disk Write      : 10.24K (,cn130,cn131)
+Max Disk Read       : 16.09M (,cn130,cn131)
+
+slurmstepd: error: *** JOB 161532 ON cn125 CANCELLED AT 2023-05-26T14:56:15 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 161532 for user 'dfurmanczyk'
+Finished at: Fri May 26 14:56:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_2.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn125
+Cores               : 4
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T14:47:06
+Start               : 2023-05-26T14:51:13
+End                 : 2023-05-26T14:56:16
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:03
+Used CPU time       : 00:00:43 (efficiency:  3.58%)
+% User (Computation):  9.83%
+% System (I/O)      : 90.17%
+Mem reserved        : 4G
+Max Mem used        : 5.97G (cn125)
+Max Disk Write      : 20.48K (cn125)
+Max Disk Read       : 14.00M (cn125)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 161682 ON cn130 CANCELLED AT 2023-05-26T15:53:15 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 161682 for user 'dfurmanczyk'
+Finished at: Fri May 26 15:53:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_2.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn130
+Cores               : 4
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-26T15:18:09
+Start               : 2023-05-26T15:47:46
+End                 : 2023-05-26T15:53:16
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:30
+Used CPU time       : 00:00:30 (efficiency:  2.30%)
+% User (Computation): 10.70%
+% System (I/O)      : 89.30%
+Mem reserved        : 4G
+Max Mem used        : 5.96G (cn130)
+Max Disk Write      : 20.48K (cn130)
+Max Disk Read       : 14.00M (cn130)
+
+slurmstepd: error: *** JOB 161685 ON cn128 CANCELLED AT 2023-05-26T15:54:46 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 161685 for user 'dfurmanczyk'
+Finished at: Fri May 26 15:54:48 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_2.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-129]
+Cores               : 4
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T15:18:09
+Start               : 2023-05-26T15:49:16
+End                 : 2023-05-26T15:54:47
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:31
+Used CPU time       : 00:00:19 (efficiency:  1.49%)
+% User (Computation): 12.28%
+% System (I/O)      : 87.72%
+Mem reserved        : 4G
+Max Mem used        : 2.98G (,cn128,cn129)
+Max Disk Write      : 10.24K (,cn128,cn129)
+Max Disk Read       : 16.10M (,cn128,cn129)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162340 ON cn129 CANCELLED AT 2023-05-26T20:06:46 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 162343 ON cn128 CANCELLED AT 2023-05-26T20:06:46 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162340 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:06:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_2.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn129
+Cores               : 4
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T19:58:34
+Start               : 2023-05-26T20:01:41
+End                 : 2023-05-26T20:06:47
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:06
+Used CPU time       : 00:00:24 (efficiency:  1.99%)
+% User (Computation): 58.37%
+% System (I/O)      : 41.63%
+Mem reserved        : 4G
+Max Mem used        : 4.71G (cn129)
+Max Disk Write      : 20.48K (cn129)
+Max Disk Read       : 14.01M (cn129)
+
+
+
+###############################################################################
+Science Cluster
+Job 162343 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:06:48 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_2.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-129]
+Cores               : 4
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T19:58:34
+Start               : 2023-05-26T20:01:41
+End                 : 2023-05-26T20:06:47
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:06
+Used CPU time       : 00:00:07 (efficiency:  0.60%)
+% User (Computation): 22.55%
+% System (I/O)      : 77.45%
+Mem reserved        : 4G
+Max Mem used        : 2.23G (,cn128,cn129)
+Max Disk Write      : 10.24K (,cn128,cn129)
+Max Disk Read       : 16.10M (,cn128,cn129)
+

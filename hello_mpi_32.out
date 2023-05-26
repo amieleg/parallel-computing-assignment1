@@ -551,3 +551,134 @@ Max Mem used        : 3.06G (cn124,cn125,cn129)
 Max Disk Write      : 102.40K (cn124,cn125,cn129)
 Max Disk Read       : 18.81M (cn124,cn129)
 
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 161692 for user 'dfurmanczyk'
+Finished at: Fri May 26 15:29:00 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-26T15:18:09
+Start               : 2023-05-26T15:28:15
+End                 : 2023-05-26T15:29:00
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:45
+Used CPU time       : 00:07:09 (efficiency: 14.90%)
+% User (Computation): 79.35%
+% System (I/O)      : 20.65%
+Mem reserved        : 64G
+Max Mem used        : 4.02M (cn128,cn129,cn130,cn131)
+Max Disk Write      : 0.00  (cn128,cn129,cn130,cn131)
+Max Disk Read       : 0.00  (cn128,cn129,cn130,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 161695 for user 'dfurmanczyk'
+Finished at: Fri May 26 15:38:37 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-26T15:18:09
+Start               : 2023-05-26T15:37:51
+End                 : 2023-05-26T15:38:37
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:46
+Used CPU time       : 00:05:20 (efficiency: 10.88%)
+% User (Computation): 54.07%
+% System (I/O)      : 45.93%
+Mem reserved        : 64G
+Max Mem used        : 4.33M (cn124,cn128,cn131)
+Max Disk Write      : 0.00  (cn124,cn128,cn131)
+Max Disk Read       : 0.00  (cn124,cn128,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162353 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:00:08 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-26T19:58:34
+Start               : 2023-05-26T19:58:34
+End                 : 2023-05-26T20:00:08
+Reserved walltime   : 00:05:00
+Used walltime       : 00:01:34
+Used CPU time       : 00:26:00 (efficiency: 25.95%)
+% User (Computation): 45.28%
+% System (I/O)      : 54.72%
+Mem reserved        : 64G
+Max Mem used        : 3.32G (cn124,cn125,cn127,cn128)
+Max Disk Write      : 102.40K (cn124,cn125,cn127,cn128)
+Max Disk Read       : 18.82M (cn124,cn127,cn128)
+
+make: 'bin/stencil_mpi' is up to date.
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn124
+  System call: unlink(2) /dev/shm/vader_segment.cn124.38903.3bba0001.2
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn124:3257001] 7 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn124:3257001] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 162350 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:02:08 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-26T19:58:34
+Start               : 2023-05-26T20:01:23
+End                 : 2023-05-26T20:02:08
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:45
+Used CPU time       : 00:12:52 (efficiency: 26.81%)
+% User (Computation): 60.44%
+% System (I/O)      : 39.56%
+Mem reserved        : 64G
+Max Mem used        : 4.02M (cn124,cn126,cn127)
+Max Disk Write      : 0.00  (cn124,cn126,cn127)
+Max Disk Read       : 0.00  (cn124,cn126,cn127)
+

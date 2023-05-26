@@ -46,9 +46,6 @@ void stencil(size_t n, int iterations, int show)
 
     viewsize+= shift;
 
-    //printf("Hello world from, rank %d/%d running on CPU %d!\n", my_rank, p, 1);
-
-
     REAL *in = calloc(viewsize, sizeof(REAL));
     REAL *out = malloc(viewsize * sizeof(REAL));
 
@@ -65,17 +62,14 @@ void stencil(size_t n, int iterations, int show)
     
     for(int t = 0; t < iterations; t++) 
     {
-        //printf("iteration: %d", t);
         send_left = in[0];
         send_right = in[viewsize-1];
         if(my_rank != 0)
         {
-            //printf("rank %d sending to the left \n", my_rank);
             MPI_Send(&send_left, 1, MPI_DOUBLE, my_rank-1, 0, MPI_COMM_WORLD);
         }
         if(my_rank != size-1)
         {
-            //printf("rank %d sending to the right \n", my_rank);
             MPI_Send(&send_right, 1, MPI_DOUBLE, my_rank+1, 1, MPI_COMM_WORLD);
         }
 
@@ -85,7 +79,6 @@ void stencil(size_t n, int iterations, int show)
             {
                 if(my_rank != 0)
                 {
-                    //printf("my rank %i", my_rank);
                     MPI_Recv(&left_val, 1, MPI_DOUBLE, my_rank-1, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                     out[i] = left_val * a + in[i] * b + in[i+1] * c;
                 }
@@ -98,7 +91,6 @@ void stencil(size_t n, int iterations, int show)
             {
                 if(my_rank != size-1)
                 {
-                    //printf("my rank %i", my_rank);
                     MPI_Recv(&right_val, 1, MPI_DOUBLE, my_rank+1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                     out[i] = in[i-1] * a + in[i] * b + right_val * c;
                 }
@@ -114,22 +106,9 @@ void stencil(size_t n, int iterations, int show)
         }
 
         if (t != iterations-1) {
-            //printf("swapping %p and %p\n", in, out);
             swap(&in, &out);
-            //printf("swapped %p and %p\n", in, out);
         }
     }
-
-    /*
-    if (show == 1)
-    {
-        printf("my rank %d ", my_rank);
-        for(int i = 0; i < viewsize; i++)
-        {
-             printf("%lf ", out[i]);
-        }
-        printf("\n");
-    }*/
     
     REAL *output = NULL;
 
