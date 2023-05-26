@@ -2,8 +2,8 @@
 
 #SBATCH --account=csmpistud
 #SBATCH --ntasks=NTASKS
-#SBATCH --nodes=NODES
-#SBATCH --ntasks-per-node=8
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=TASKSPERNODE
 #SBATCH --threads-per-core=1
 #SBATCH --partition=csmpi_short
 #SBATCH --time=00:05:00
@@ -20,6 +20,6 @@ for N in 625 625000 625000000; do
     mpirun bin/stencil_mpi $N 100 0 > results/temp_results.txt
     echo $N NTASKS > results/temp_params.txt
     times=`cat results/temp_results.txt`
-    row="${N} ${times}"
+    row="1 TASKSPERNODE ${N} ${times}"
     echo $row >> results/RESULTS.txt 
 done
