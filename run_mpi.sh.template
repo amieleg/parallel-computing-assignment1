@@ -2,7 +2,7 @@
 
 #SBATCH --account=csmpistud
 #SBATCH --ntasks=NTASKS
-#SBATCH --nodes=1
+#SBATCH --nodes=NODES
 #SBATCH --ntasks-per-node=TASKSPERNODE
 #SBATCH --threads-per-core=1
 #SBATCH --partition=csmpi_short
