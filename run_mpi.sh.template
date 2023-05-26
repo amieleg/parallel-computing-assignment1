@@ -19,6 +19,6 @@ for N in 625 625000 625000000; do
     mpirun -N NTASKS --oversubscribe bin/stencil_mpi $N 1 0 > results/temp_results.txt
     echo $N NTASKS > results/temp_params.txt
     times=`cat results/temp_results.txt`
-    row="NTASKS ${N} ${times}"
+    row="${NODES} ${TASKSPERNODE} ${N} ${times}"
     echo $row >> results/RESULTS.txt 
 done
