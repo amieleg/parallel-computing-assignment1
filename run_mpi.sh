@@ -7,7 +7,8 @@ do
     while [ $TASKSPERNODE -le 8 ]
     do
         NTASKS=$((TASKSPERNODE * NODES ))
-    
+        info="${NODES} ${TASKSPERNODE}"
+        echo $info >> results/RESULTS.txt 
         sed "s/NODES/$NODES/g" run_mpi.sh.template > run_mpi_"$NTASKS".sh
         sed -i "s/NTASKS/$NTASKS/g" run_mpi_"$NTASKS".sh
         # ./ -> sbatch or sbatch -> ./
