@@ -17,9 +17,9 @@ make bin/stencil_mpi
 for N in 625 625000 625000000; do
     # REMOVE -N NTAKS and --oversubscribe on the SLURM!!!!
     #mpirun -N NTASKS --oversubscribe bin/stencil_mpi $N 1 0 > results/temp_results.txt
-    mpirun bin/stencil_mpi $N 100 0 > results/temp_results.txt
-    echo $N NTASKS > results/temp_params.txt
-    times=`cat results/temp_results.txt`
+    # mpirun bin/stencil_mpi $N 100 0 > results/temp_results.txt
+    # echo $N NTASKS > results/temp_params.txt
+    times=$(mpirun bin/stencil_mpi $N 100 0) #`cat results/temp_results.txt`
     row="NODES TASKSPERNODE ${N} ${times}"
     echo $row >> results/RESULTS.txt 
 done

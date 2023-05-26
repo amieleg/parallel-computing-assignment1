@@ -458,3 +458,96 @@ Max Mem used        : 4.32M (cn124,cn126,cn128,cn129)
 Max Disk Write      : 0.00  (cn124,cn126,cn128,cn129)
 Max Disk Read       : 0.00  (cn124,cn126,cn128,cn129)
 
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 161345 for user 'dfurmanczyk'
+Finished at: Fri May 26 14:24:33 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-26T14:09:25
+Start               : 2023-05-26T14:23:47
+End                 : 2023-05-26T14:24:33
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:46
+Used CPU time       : 00:07:08 (efficiency: 14.54%)
+% User (Computation): 79.57%
+% System (I/O)      : 20.43%
+Mem reserved        : 64G
+Max Mem used        : 0.00  (cn128,cn129,cn130,cn131)
+Max Disk Write      : 0.00  (cn128,cn129,cn130,cn131)
+Max Disk Read       : 0.00  (cn128,cn129,cn130,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+/var/spool/slurm/slurmd/job161492/slurm_script: 22: 0.030383s,: not found
+/var/spool/slurm/slurmd/job161492/slurm_script: 22: 0.069455s,: not found
+/var/spool/slurm/slurmd/job161492/slurm_script: 22: 88.329769s,: not found
+
+
+###############################################################################
+Science Cluster
+Job 161492 for user 'dfurmanczyk'
+Finished at: Fri May 26 14:42:01 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-26T14:32:46
+Start               : 2023-05-26T14:40:29
+End                 : 2023-05-26T14:42:00
+Reserved walltime   : 00:05:00
+Used walltime       : 00:01:31
+Used CPU time       : 00:07:51 (efficiency:  8.09%)
+% User (Computation): 53.51%
+% System (I/O)      : 46.49%
+Mem reserved        : 64G
+Max Mem used        : 3.49G (cn124,cn125,cn126,cn131)
+Max Disk Write      : 102.40K (cn124,cn125,cn126,cn131)
+Max Disk Read       : 18.82M (cn124,cn126,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 161548 for user 'dfurmanczyk'
+Finished at: Fri May 26 14:50:23 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_32.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 64
+State               : COMPLETED
+Submit              : 2023-05-26T14:47:07
+Start               : 2023-05-26T14:48:47
+End                 : 2023-05-26T14:50:23
+Reserved walltime   : 00:05:00
+Used walltime       : 00:01:36
+Used CPU time       : 00:09:57 (efficiency:  9.73%)
+% User (Computation): 58.56%
+% System (I/O)      : 41.44%
+Mem reserved        : 64G
+Max Mem used        : 3.06G (cn124,cn125,cn129)
+Max Disk Write      : 102.40K (cn124,cn125,cn129)
+Max Disk Read       : 18.81M (cn124,cn129)
+

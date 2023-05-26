@@ -29,3 +29,35 @@ Max Mem used        : 2.97G (cn126)
 Max Disk Write      : 0.00  (cn126)
 Max Disk Read       : 13.70M (cn126)
 
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 161331 ON cn131 CANCELLED AT 2023-05-26T14:29:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 161331 for user 'dfurmanczyk'
+Finished at: Fri May 26 14:29:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_1.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn131
+Cores               : 2
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T14:09:25
+Start               : 2023-05-26T14:24:43
+End                 : 2023-05-26T14:29:46
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:03
+Used CPU time       : 00:00:23 (efficiency:  3.86%)
+% User (Computation): 13.88%
+% System (I/O)      : 86.12%
+Mem reserved        : 2G
+Max Mem used        : 2.45G (cn131)
+Max Disk Write      : 0.00  (cn131)
+Max Disk Read       : 13.70M (cn131)
+
+make: 'bin/stencil_mpi' is up to date.

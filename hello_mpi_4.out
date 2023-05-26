@@ -40,3 +40,67 @@ Max Mem used        : 2.44G (,cn124,cn126)
 Max Disk Write      : 20.48K (,cn124,cn126)
 Max Disk Read       : 17.29M (,cn124,cn126)
 
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 161342 ON cn124 CANCELLED AT 2023-05-26T14:29:15 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 161342 for user 'dfurmanczyk'
+Finished at: Fri May 26 14:29:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-26T14:09:25
+Start               : 2023-05-26T14:23:50
+End                 : 2023-05-26T14:29:16
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:26
+Used CPU time       : 00:00:37 (efficiency:  1.44%)
+% User (Computation): 15.34%
+% System (I/O)      : 84.66%
+Mem reserved        : 8G
+Max Mem used        : 2.96G (,cn124,cn126,cn127)
+Max Disk Write      : 20.48K (,cn124,cn126,cn127)
+Max Disk Read       : 17.29M (,cn124,cn126,cn127)
+
+slurmstepd: error: *** JOB 161338 ON cn130 CANCELLED AT 2023-05-26T14:29:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 161338 for user 'dfurmanczyk'
+Finished at: Fri May 26 14:29:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T14:09:25
+Start               : 2023-05-26T14:24:43
+End                 : 2023-05-26T14:29:46
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:03
+Used CPU time       : 00:00:37 (efficiency:  1.57%)
+% User (Computation): 12.12%
+% System (I/O)      : 87.88%
+Mem reserved        : 8G
+Max Mem used        : 4.66G (,cn130,cn131)
+Max Disk Write      : 30.72K (,cn130,cn131)
+Max Disk Read       : 16.41M (,cn130,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
