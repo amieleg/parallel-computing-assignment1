@@ -1,0 +1,31 @@
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 161248 ON cn124 CANCELLED AT 2023-05-26T13:52:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 161248 for user 'dfurmanczyk'
+Finished at: Fri May 26 13:52:49 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_2.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-125]
+Cores               : 4
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T13:45:33
+Start               : 2023-05-26T13:47:42
+End                 : 2023-05-26T13:52:48
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:06
+Used CPU time       : 00:00:17 (efficiency:  1.45%)
+% User (Computation): 13.60%
+% System (I/O)      : 86.39%
+Mem reserved        : 4G
+Max Mem used        : 2.98G (,cn124,cn125)
+Max Disk Write      : 10.24K (,cn124,cn125)
+Max Disk Read       : 16.10M (,cn124,cn125)
+

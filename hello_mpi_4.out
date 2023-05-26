@@ -1,0 +1,42 @@
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 161252 ON cn124 CANCELLED AT 2023-05-26T13:52:46 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[43695,0],0] on node cn124
+  Remote daemon: [[43695,0],1] on node cn125
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+
+
+###############################################################################
+Science Cluster
+Job 161252 for user 'dfurmanczyk'
+Finished at: Fri May 26 13:52:49 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T13:45:33
+Start               : 2023-05-26T13:47:42
+End                 : 2023-05-26T13:52:48
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:06
+Used CPU time       : 00:00:19 (efficiency:  0.80%)
+% User (Computation): 14.12%
+% System (I/O)      : 85.88%
+Mem reserved        : 8G
+Max Mem used        : 2.44G (,cn124,cn126)
+Max Disk Write      : 20.48K (,cn124,cn126)
+Max Disk Read       : 17.29M (,cn124,cn126)
+

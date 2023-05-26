@@ -4,7 +4,7 @@ NODES=1
 while [ $NODES -le 8 ]
 do
     TASKSPERNODE=1
-    while [ $TASKSPERNODE -le 8 ]
+    while [ $((TASKSPERNODE * NODES )) -le 32 ]
     do
         NTASKS=$((TASKSPERNODE * NODES ))
         sed "s/NODES/$NODES/g" run_mpi.sh.template > run_mpi_"$NTASKS".sh     
