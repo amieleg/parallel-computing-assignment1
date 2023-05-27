@@ -6,7 +6,7 @@
 #SBATCH --ntasks-per-node=TASKSPERNODE
 #SBATCH --threads-per-core=1
 #SBATCH --partition=csmpi_short
-#SBATCH --time=00:05:00
+#SBATCH --time=00:10:00
 #SBATCH --output=hello_mpi_NTASKS.out
 
 # Compile on the machine, not the head node

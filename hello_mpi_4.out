@@ -350,3 +350,1239 @@ Max Mem used        : 9.40G (cn127)
 Max Disk Write      : 40.96K (cn127)
 Max Disk Read       : 14.62M (cn127)
 
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162431 ON cn128 CANCELLED AT 2023-05-26T20:45:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162431 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:45:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-26T20:38:35
+Start               : 2023-05-26T20:40:40
+End                 : 2023-05-26T20:45:47
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:07
+Used CPU time       : 00:00:31 (efficiency:  1.29%)
+% User (Computation): 14.45%
+% System (I/O)      : 85.55%
+Mem reserved        : 8G
+Max Mem used        : 2.94G (,cn128,cn131)
+Max Disk Write      : 20.48K (,cn128,cn131)
+Max Disk Read       : 17.30M (,cn128,cn131)
+
+slurmstepd: error: *** JOB 162428 ON cn130 CANCELLED AT 2023-05-26T20:47:15 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162428 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:47:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-26T20:38:35
+Start               : 2023-05-26T20:42:10
+End                 : 2023-05-26T20:47:17
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:07
+Used CPU time       : 00:00:23 (efficiency:  0.97%)
+% User (Computation): 14.90%
+% System (I/O)      : 85.10%
+Mem reserved        : 8G
+Max Mem used        : 4.78G (,cn130,cn131)
+Max Disk Write      : 30.72K (,cn130,cn131)
+Max Disk Read       : 16.40M (,cn130,cn131)
+
+slurmstepd: error: *** JOB 162425 ON cn131 CANCELLED AT 2023-05-26T20:48:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162425 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:48:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn131
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-26T20:38:35
+Start               : 2023-05-26T20:43:40
+End                 : 2023-05-26T20:48:46
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:06
+Used CPU time       : 00:00:42 (efficiency:  1.74%)
+% User (Computation): 21.88%
+% System (I/O)      : 78.12%
+Mem reserved        : 8G
+Max Mem used        : 8.28G (cn131)
+Max Disk Write      : 40.96K (cn131)
+Max Disk Read       : 14.61M (cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162454 ON cn128 CANCELLED AT 2023-05-26T21:01:46 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162454 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:01:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T20:51:04
+Start               : 2023-05-26T20:56:41
+End                 : 2023-05-26T21:01:47
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:06
+Used CPU time       : 00:00:37 (efficiency:  1.54%)
+% User (Computation): 14.93%
+% System (I/O)      : 85.06%
+Mem reserved        : 8G
+Max Mem used        : 3.04G (,cn128,cn131)
+Max Disk Write      : 20.48K (,cn128,cn131)
+Max Disk Read       : 17.30M (,cn128,cn131)
+
+slurmstepd: error: *** JOB 162451 ON cn130 CANCELLED AT 2023-05-26T21:03:15 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162451 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:03:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T20:51:04
+Start               : 2023-05-26T20:58:12
+End                 : 2023-05-26T21:03:16
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:04
+Used CPU time       : 00:00:28 (efficiency:  1.19%)
+% User (Computation): 15.78%
+% System (I/O)      : 84.22%
+Mem reserved        : 8G
+Max Mem used        : 4.71G (,cn130,cn131)
+Max Disk Write      : 30.72K (,cn130,cn131)
+Max Disk Read       : 16.40M (,cn130,cn131)
+
+slurmstepd: error: *** JOB 162448 ON cn127 CANCELLED AT 2023-05-26T21:04:15 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162448 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:04:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn127
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T20:51:04
+Start               : 2023-05-26T20:58:58
+End                 : 2023-05-26T21:04:16
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:18
+Used CPU time       : 00:00:38 (efficiency:  1.51%)
+% User (Computation): 24.22%
+% System (I/O)      : 75.78%
+Mem reserved        : 8G
+Max Mem used        : 7.98G (cn127)
+Max Disk Write      : 40.96K (cn127)
+Max Disk Read       : 14.62M (cn127)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162473 ON cn128 CANCELLED AT 2023-05-26T21:19:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162473 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:19:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T21:12:38
+Start               : 2023-05-26T21:14:39
+End                 : 2023-05-26T21:19:46
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:07
+Used CPU time       : 00:00:29 (efficiency:  1.19%)
+% User (Computation): 12.60%
+% System (I/O)      : 87.39%
+Mem reserved        : 8G
+Max Mem used        : 3.01G (,cn128,cn131)
+Max Disk Write      : 20.48K (,cn128,cn131)
+Max Disk Read       : 17.30M (,cn128,cn131)
+
+slurmstepd: error: *** JOB 162470 ON cn130 CANCELLED AT 2023-05-26T21:22:15 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162470 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:22:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T21:12:38
+Start               : 2023-05-26T21:17:09
+End                 : 2023-05-26T21:22:17
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:08
+Used CPU time       : 00:00:30 (efficiency:  1.25%)
+% User (Computation): 11.57%
+% System (I/O)      : 88.42%
+Mem reserved        : 8G
+Max Mem used        : 4.71G (,cn130,cn131)
+Max Disk Write      : 30.72K (,cn130,cn131)
+Max Disk Read       : 16.40M (,cn130,cn131)
+
+slurmstepd: error: *** JOB 162467 ON cn127 CANCELLED AT 2023-05-26T21:23:15 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162467 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:23:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn127
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-26T21:12:38
+Start               : 2023-05-26T21:18:05
+End                 : 2023-05-26T21:23:17
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:12
+Used CPU time       : 00:00:47 (efficiency:  1.90%)
+% User (Computation): 21.79%
+% System (I/O)      : 78.21%
+Mem reserved        : 8G
+Max Mem used        : 8.33G (cn127)
+Max Disk Write      : 40.96K (cn127)
+Max Disk Read       : 14.62M (cn127)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162751 ON cn128 CANCELLED AT 2023-05-27T01:02:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162751 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:02:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T00:55:09
+Start               : 2023-05-27T00:57:40
+End                 : 2023-05-27T01:02:47
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:07
+Used CPU time       : 00:00:30 (efficiency:  1.23%)
+% User (Computation): 15.54%
+% System (I/O)      : 84.46%
+Mem reserved        : 8G
+Max Mem used        : 2.72G (,cn128,cn130,cn131)
+Max Disk Write      : 20.48K (,cn128,cn130,cn131)
+Max Disk Read       : 17.30M (,cn128,cn130,cn131)
+
+slurmstepd: error: *** JOB 162748 ON cn130 CANCELLED AT 2023-05-27T01:04:46 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162748 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:04:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T00:55:09
+Start               : 2023-05-27T00:59:41
+End                 : 2023-05-27T01:04:47
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:06
+Used CPU time       : 00:00:25 (efficiency:  1.06%)
+% User (Computation): 13.81%
+% System (I/O)      : 86.19%
+Mem reserved        : 8G
+Max Mem used        : 4.73G (,cn130,cn131)
+Max Disk Write      : 30.72K (,cn130,cn131)
+Max Disk Read       : 16.40M (,cn130,cn131)
+
+slurmstepd: error: *** JOB 162745 ON cn131 CANCELLED AT 2023-05-27T01:05:45 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162745 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:05:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn131
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T00:55:09
+Start               : 2023-05-27T01:00:41
+End                 : 2023-05-27T01:05:46
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:05
+Used CPU time       : 00:00:37 (efficiency:  1.54%)
+% User (Computation): 19.60%
+% System (I/O)      : 80.40%
+Mem reserved        : 8G
+Max Mem used        : 8.05G (cn131)
+Max Disk Write      : 40.96K (cn131)
+Max Disk Read       : 14.61M (cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162832 ON cn124 CANCELLED AT 2023-05-27T01:30:17 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162832 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:30:19 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn124
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T01:25:01
+Start               : 2023-05-27T01:25:02
+End                 : 2023-05-27T01:30:18
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:16
+Used CPU time       : 00:00:31 (efficiency:  1.25%)
+% User (Computation): 16.94%
+% System (I/O)      : 83.06%
+Mem reserved        : 8G
+Max Mem used        : 7.98G (cn124)
+Max Disk Write      : 40.96K (cn124)
+Max Disk Read       : 14.61M (cn124)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162838 ON cn128 CANCELLED AT 2023-05-27T01:37:18 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162838 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:37:20 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T01:25:02
+Start               : 2023-05-27T01:32:15
+End                 : 2023-05-27T01:37:19
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:04
+Used CPU time       : 00:00:29 (efficiency:  1.20%)
+% User (Computation): 16.21%
+% System (I/O)      : 83.79%
+Mem reserved        : 8G
+Max Mem used        : 2.71G (,cn128,cn130,cn131)
+Max Disk Write      : 20.48K (,cn128,cn130,cn131)
+Max Disk Read       : 17.30M (,cn128,cn130,cn131)
+
+slurmstepd: error: *** JOB 162835 ON cn130 CANCELLED AT 2023-05-27T01:39:50 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162835 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:39:52 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T01:25:02
+Start               : 2023-05-27T01:34:46
+End                 : 2023-05-27T01:39:51
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:05
+Used CPU time       : 00:01:10 (efficiency:  2.91%)
+% User (Computation): 48.77%
+% System (I/O)      : 51.23%
+Mem reserved        : 8G
+Max Mem used        : 4.71G (,cn130,cn131)
+Max Disk Write      : 30.72K (,cn130,cn131)
+Max Disk Read       : 16.40M (,cn130,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162961 ON cn128 CANCELLED AT 2023-05-27T12:47:16 ***
+
+
+###############################################################################
+Science Cluster
+Job 162961 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:47:18 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 8
+State               : CANCELLED by 38903,CANCELLED,FAILED
+Submit              : 2023-05-27T12:46:26
+Start               : 2023-05-27T12:46:26
+End                 : 2023-05-27T12:47:17
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:51
+Used CPU time       : 00:00:14 (efficiency:  3.59%)
+% User (Computation): 26.59%
+% System (I/O)      : 73.41%
+Mem reserved        : 8G
+Max Mem used        : 2.33G (cn128,cn129,cn130,cn131)
+Max Disk Write      : 0.00  (cn128,cn129,cn130,cn131)
+Max Disk Read       : 0.00  (cn128,cn129,cn130,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162977 ON cn124 CANCELLED AT 2023-05-27T12:55:54 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162977 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:55:55 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,129-131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T12:47:44
+Start               : 2023-05-27T12:50:45
+End                 : 2023-05-27T12:55:55
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:10
+Used CPU time       : 00:00:09 (efficiency:  0.37%)
+% User (Computation): 21.54%
+% System (I/O)      : 78.45%
+Mem reserved        : 8G
+Max Mem used        : 2.33G (,cn124,cn131)
+Max Disk Write      : 20.48K (,cn124,cn131)
+Max Disk Read       : 17.29M (,cn124,cn131)
+
+slurmstepd: error: *** JOB 162974 ON cn124 CANCELLED AT 2023-05-27T12:57:54 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162974 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:57:56 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,131]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-27T12:47:43
+Start               : 2023-05-27T12:52:45
+End                 : 2023-05-27T12:57:55
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:10
+Used CPU time       : 00:00:10 (efficiency:  0.44%)
+% User (Computation): 23.49%
+% System (I/O)      : 76.51%
+Mem reserved        : 8G
+Max Mem used        : 4.05G (,cn124,cn131)
+Max Disk Write      : 30.72K (,cn124,cn131)
+Max Disk Read       : 16.40M (,cn124,cn131)
+
+slurmstepd: error: *** JOB 162971 ON cn131 CANCELLED AT 2023-05-27T12:59:53 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162971 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:59:55 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn131
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T12:47:43
+Start               : 2023-05-27T12:54:46
+End                 : 2023-05-27T12:59:55
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:09
+Used CPU time       : 00:00:26 (efficiency:  1.07%)
+% User (Computation): 23.74%
+% System (I/O)      : 76.26%
+Mem reserved        : 8G
+Max Mem used        : 8.83G (cn131)
+Max Disk Write      : 40.96K (cn131)
+Max Disk Read       : 14.61M (cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failsalloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+
+
+###############################################################################
+Science Cluster
+Job 162997 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:06:59 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[125,131]
+Cores               : 8
+State               : COMPLETED
+Submit              : 2023-05-27T13:06:55
+Start               : 2023-05-27T13:06:59
+End                 : 2023-05-27T13:06:59
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 100.00%
+% System (I/O)      :  0.00%
+Mem reserved        : 8G
+Max Mem used        : 0.00  (cn125)
+Max Disk Write      : 0.00  (cn125)
+Max Disk Read       : 0.00  (cn125)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+
+
+###############################################################################
+Science Cluster
+Job 163000 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:06:59 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[126-129]
+Cores               : 8
+State               : COMPLETED
+Submit              : 2023-05-27T13:06:55
+Start               : 2023-05-27T13:06:59
+End                 : 2023-05-27T13:06:59
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 100.00%
+% System (I/O)      :  0.00%
+Mem reserved        : 8G
+Max Mem used        : 0.00  (cn126)
+Max Disk Write      : 0.00  (cn126)
+Max Disk Read       : 0.00  (cn126)
+
+
+
+###############################################################################
+Science Cluster
+Job 162994 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:06:59 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn125
+Cores               : 8
+State               : COMPLETED
+Submit              : 2023-05-27T13:06:55
+Start               : 2023-05-27T13:06:59
+End                 : 2023-05-27T13:06:59
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 86.21%
+% System (I/O)      : 13.79%
+Mem reserved        : 8G
+Max Mem used        : 0.00  (cn125)
+Max Disk Write      : 0.00  (cn125)
+Max Disk Read       : 0.00  (cn125)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+
+
+###############################################################################
+Science Cluster
+Job 163016 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:08:48 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,128-130]
+Cores               : 8
+State               : COMPLETED
+Submit              : 2023-05-27T13:07:59
+Start               : 2023-05-27T13:08:48
+End                 : 2023-05-27T13:08:48
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 86.21%
+% System (I/O)      : 13.79%
+Mem reserved        : 8G
+Max Mem used        : 0.00  (cn124)
+Max Disk Write      : 0.00  (cn124)
+Max Disk Read       : 0.00  (cn124)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failsalloc: error: Job submit/allocate failed: No partitionsalloc: error: Job submit/allocate failsalloc: error: Job submit/allocate failed: No partitionsalloc: error: Job submit/allocate failsalloc: error: Job submit/allocate failed: No partition specified or system default partition
+
+
+###############################################################################
+Science Cluster
+Job 163013 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:08:57 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[129-130]
+Cores               : 8
+State               : COMPLETED
+Submit              : 2023-05-27T13:07:59
+Start               : 2023-05-27T13:08:56
+End                 : 2023-05-27T13:08:57
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:01
+Used CPU time       : --
+% User (Computation): 72.41%
+% System (I/O)      : 27.59%
+Mem reserved        : 8G
+Max Mem used        : 0.00  (cn129)
+Max Disk Write      : 0.00  (cn129)
+Max Disk Read       : 0.00  (cn129)
+
+
+
+###############################################################################
+Science Cluster
+Job 163010 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:08:57 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn127
+Cores               : 8
+State               : COMPLETED
+Submit              : 2023-05-27T13:07:59
+Start               : 2023-05-27T13:08:56
+End                 : 2023-05-27T13:08:57
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:01
+Used CPU time       : --
+% User (Computation): 64.86%
+% System (I/O)      : 35.14%
+Mem reserved        : 8G
+Max Mem used        : 0.00  (cn127)
+Max Disk Write      : 0.00  (cn127)
+Max Disk Read       : 0.00  (cn127)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 163175 ON cn128 CANCELLED AT 2023-05-27T14:02:23 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 163175 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:02:25 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T13:43:21
+Start               : 2023-05-27T13:51:56
+End                 : 2023-05-27T14:02:24
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:28
+Used CPU time       : 00:06:13 (efficiency:  7.44%)
+% User (Computation): 35.54%
+% System (I/O)      : 64.46%
+Mem reserved        : 8G
+Max Mem used        : 2.92G (,cn128,cn131)
+Max Disk Write      : 20.48K (,cn128,cn131)
+Max Disk Read       : 17.30M (,cn128,cn131)
+
+slurmstepd: error: *** JOB 163172 ON cn126 CANCELLED AT 2023-05-27T14:02:53 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 163172 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:02:55 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[126-127]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T13:43:21
+Start               : 2023-05-27T13:52:41
+End                 : 2023-05-27T14:02:55
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:14
+Used CPU time       : 00:01:06 (efficiency:  1.34%)
+% User (Computation):  9.98%
+% System (I/O)      : 90.02%
+Mem reserved        : 8G
+Max Mem used        : 5.54G (,cn126,cn127)
+Max Disk Write      : 30.72K (,cn126,cn127)
+Max Disk Read       : 16.40M (,cn126,cn127)
+
+slurmstepd: error: *** JOB 163169 ON cn129 CANCELLED AT 2023-05-27T14:03:23 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 163169 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:03:25 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn129
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-27T13:43:21
+Start               : 2023-05-27T13:53:13
+End                 : 2023-05-27T14:03:25
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:12
+Used CPU time       : 00:01:11 (efficiency:  1.46%)
+% User (Computation): 13.01%
+% System (I/O)      : 86.99%
+Mem reserved        : 8G
+Max Mem used        : 9.58G (cn129)
+Max Disk Write      : 40.96K (cn129)
+Max Disk Read       : 14.62M (cn129)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 163321 ON cn124 CANCELLED AT 2023-05-27T14:31:23 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 163291 ON cn124 CANCELLED AT 2023-05-27T14:31:23 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 163306 ON cn124 CANCELLED AT 2023-05-27T14:31:24 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 163336 ON cn124 CANCELLED AT 2023-05-27T14:31:25 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 163291 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:31:25 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T14:06:17
+Start               : 2023-05-27T14:21:22
+End                 : 2023-05-27T14:31:24
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:02
+Used CPU time       : 00:00:25 (efficiency:  0.53%)
+% User (Computation): 14.72%
+% System (I/O)      : 85.28%
+Mem reserved        : 8G
+Max Mem used        : 2.49G (,cn124,cn126)
+Max Disk Write      : 20.48K (,cn124,cn126)
+Max Disk Read       : 17.29M (,cn124,cn126)
+
+
+
+###############################################################################
+Science Cluster
+Job 163306 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:31:26 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-27T14:06:19
+Start               : 2023-05-27T14:21:22
+End                 : 2023-05-27T14:31:25
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:03
+Used CPU time       : 00:00:25 (efficiency:  0.53%)
+% User (Computation): 14.74%
+% System (I/O)      : 85.26%
+Mem reserved        : 8G
+Max Mem used        : 2.47G (,cn124,cn125,cn127)
+Max Disk Write      : 20.48K (,cn124,cn125,cn127)
+Max Disk Read       : 17.29M (,cn124,cn125,cn127)
+
+
+
+###############################################################################
+Science Cluster
+Job 163321 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:31:26 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T14:06:21
+Start               : 2023-05-27T14:21:22
+End                 : 2023-05-27T14:31:26
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:04
+Used CPU time       : 00:00:25 (efficiency:  0.53%)
+% User (Computation): 14.81%
+% System (I/O)      : 85.19%
+Mem reserved        : 8G
+Max Mem used        : 2.50G (,cn124,cn125,cn127)
+Max Disk Write      : 20.48K (,cn124,cn125,cn127)
+Max Disk Read       : 17.29M (,cn124,cn125,cn127)
+
+
+
+###############################################################################
+Science Cluster
+Job 163336 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:31:27 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-127]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-27T14:06:22
+Start               : 2023-05-27T14:21:22
+End                 : 2023-05-27T14:31:26
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:04
+Used CPU time       : 00:00:26 (efficiency:  0.55%)
+% User (Computation): 14.28%
+% System (I/O)      : 85.72%
+Mem reserved        : 8G
+Max Mem used        : 2.52G (,cn124,cn125,cn127)
+Max Disk Write      : 20.48K (,cn124,cn125,cn127)
+Max Disk Read       : 17.29M (,cn124,cn125,cn127)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+                                                                                                                                                            slurmstepd: error: *** JOB 163303 ON cn124 CANCELLED AT 2023-05-27T14:47:23 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 163288 ON cn124 CANCELLED AT 2023-05-27T14:47:24 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 163318 ON cn124 CANCELLED AT 2023-05-27T14:47:24 DUE TO TIME LIMIT ***
+                                                                                                  
+
+###############################################################################
+Science Cluster
+Job 163303 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:47:25 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T14:06:19
+Start               : 2023-05-27T14:37:05
+End                 : 2023-05-27T14:47:24
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:19
+Used CPU time       : 00:00:29 (efficiency:  0.59%)
+% User (Computation): 12.49%
+% System (I/O)      : 87.51%
+Mem reserved        : 8G
+Max Mem used        : 4.57G (,cn124,cn131)
+Max Disk Write      : 30.72K (,cn124,cn131)
+Max Disk Read       : 16.40M (,cn124,cn131)
+
+
+
+###############################################################################
+Science Cluster
+Job 163318 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:47:26 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T14:06:21
+Start               : 2023-05-27T14:37:05
+End                 : 2023-05-27T14:47:25
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:20
+Used CPU time       : 00:00:29 (efficiency:  0.58%)
+% User (Computation): 12.22%
+% System (I/O)      : 87.78%
+Mem reserved        : 8G
+Max Mem used        : 4.59G (,cn124,cn131)
+Max Disk Write      : 30.72K (,cn124,cn131)
+Max Disk Read       : 16.40M (,cn124,cn131)
+
+
+
+###############################################################################
+Science Cluster
+Job 163288 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:47:27 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,131]
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T14:06:17
+Start               : 2023-05-27T14:37:05
+End                 : 2023-05-27T14:47:26
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:21
+Used CPU time       : 00:00:28 (efficiency:  0.58%)
+% User (Computation): 12.25%
+% System (I/O)      : 87.75%
+Mem reserved        : 8G
+Max Mem used        : 4.58G (,cn124,cn131)
+Max Disk Write      : 30.72K (,cn124,cn131)
+Max Disk Read       : 16.40M (,cn124,cn131)
+
+
+
+###############################################################################
+Science Cluster
+Job 163333 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:47:27 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[125-126]
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-27T14:06:22
+Start               : 2023-05-27T14:37:09
+End                 : 2023-05-27T14:47:26
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:17
+Used CPU time       : 00:00:26 (efficiency:  0.55%)
+% User (Computation): 13.31%
+% System (I/O)      : 86.69%
+Mem reserved        : 8G
+Max Mem used        : 4.35G (,cn125,cn126)
+Max Disk Write      : 30.72K (,cn125,cn126)
+Max Disk Read       : 16.40M (,cn125,cn126)
+
+slurmstepd: error: *** JOB 163330 ON cn127 CANCELLED AT 2023-05-27T14:48:53 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 163285 ON cn129 CANCELLED AT 2023-05-27T14:48:53 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 163330 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:48:55 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn127
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T14:06:22
+Start               : 2023-05-27T14:38:33
+End                 : 2023-05-27T14:48:55
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:22
+Used CPU time       : 00:01:30 (efficiency:  1.82%)
+% User (Computation): 16.95%
+% System (I/O)      : 83.05%
+Mem reserved        : 8G
+Max Mem used        : 9.52G (cn127)
+Max Disk Write      : 40.96K (cn127)
+Max Disk Read       : 14.62M (cn127)
+
+
+
+###############################################################################
+Science Cluster
+Job 163300 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:48:56 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn130
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-27T14:06:19
+Start               : 2023-05-27T14:38:31
+End                 : 2023-05-27T14:48:55
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:24
+Used CPU time       : 00:00:57 (efficiency:  1.15%)
+% User (Computation): 12.77%
+% System (I/O)      : 87.23%
+Mem reserved        : 8G
+Max Mem used        : 8.99G (cn130)
+Max Disk Write      : 40.96K (cn130)
+Max Disk Read       : 14.61M (cn130)
+
+
+
+###############################################################################
+Science Cluster
+Job 163315 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:48:56 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn130
+Cores               : 8
+State               : CANCELLED,TIMEOUT
+Submit              : 2023-05-27T14:06:21
+Start               : 2023-05-27T14:38:31
+End                 : 2023-05-27T14:48:55
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:24
+Used CPU time       : 00:01:03 (efficiency:  1.27%)
+% User (Computation): 22.56%
+% System (I/O)      : 77.44%
+Mem reserved        : 8G
+Max Mem used        : 8.96G (cn130)
+Max Disk Write      : 40.96K (cn130)
+Max Disk Read       : 14.61M (cn130)
+
+
+
+###############################################################################
+Science Cluster
+Job 163285 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:48:56 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_4.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn129
+Cores               : 8
+State               : TIMEOUT,CANCELLED
+Submit              : 2023-05-27T14:06:17
+Start               : 2023-05-27T14:38:31
+End                 : 2023-05-27T14:48:55
+Reserved walltime   : 00:10:00
+Used walltime       : 00:10:24
+Used CPU time       : 00:01:02 (efficiency:  1.25%)
+% User (Computation): 26.12%
+% System (I/O)      : 73.88%
+Mem reserved        : 8G
+Max Mem used        : 8.70G (cn129)
+Max Disk Write      : 40.96K (cn129)
+Max Disk Read       : 14.62M (cn129)
+

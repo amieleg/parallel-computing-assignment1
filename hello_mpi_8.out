@@ -675,3 +675,1819 @@ Max Mem used        : 3.99G (cn128,cn129,cn131)
 Max Disk Write      : 40.96K (cn128,cn129,cn131)
 Max Disk Read       : 17.61M (cn128,cn129,cn131)
 
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162429 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:41:55 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T20:38:35
+Start               : 2023-05-26T20:41:10
+End                 : 2023-05-26T20:41:55
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:45
+Used CPU time       : 00:03:29 (efficiency: 29.13%)
+% User (Computation): 81.68%
+% System (I/O)      : 18.32%
+Mem reserved        : 16G
+Max Mem used        : 3.86M (cn130,cn131)
+Max Disk Write      : 0.00  (cn130,cn131)
+Max Disk Read       : 0.00  (cn130,cn131)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn130
+  System call: unlink(2) /dev/shm/vader_segment.cn130.38903.409f0001.1
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3048631] 3 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn128:3048631] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 162432 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:43:15 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T20:38:35
+Start               : 2023-05-26T20:40:40
+End                 : 2023-05-26T20:43:15
+Reserved walltime   : 00:05:00
+Used walltime       : 00:02:35
+Used CPU time       : 00:05:49 (efficiency: 14.09%)
+% User (Computation): 52.52%
+% System (I/O)      : 47.48%
+Mem reserved        : 16G
+Max Mem used        : 3.98G (cn128,cn129,cn131)
+Max Disk Write      : 40.96K (cn128,cn129,cn131)
+Max Disk Read       : 17.61M (cn128,cn129,cn131)
+
+
+
+###############################################################################
+Science Cluster
+Job 162435 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:43:36 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T20:38:35
+Start               : 2023-05-26T20:38:36
+End                 : 2023-05-26T20:43:36
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:00
+Used CPU time       : 00:13:25 (efficiency: 16.79%)
+% User (Computation): 42.41%
+% System (I/O)      : 57.59%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (cn124,cn125,cn126)
+Max Disk Write      : 51.20K (cn124,cn125,cn126)
+Max Disk Read       : 17.89M (cn124,cn126,cn129)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162426 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:45:03 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn126
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T20:38:35
+Start               : 2023-05-26T20:44:22
+End                 : 2023-05-26T20:45:03
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:41
+Used CPU time       : 00:05:09 (efficiency: 47.17%)
+% User (Computation): 97.09%
+% System (I/O)      :  2.91%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn126)
+Max Disk Write      : 0.00  (cn126)
+Max Disk Read       : 0.00  (cn126)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162452 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:57:57 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T20:51:04
+Start               : 2023-05-26T20:57:11
+End                 : 2023-05-26T20:57:57
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:46
+Used CPU time       : 00:03:31 (efficiency: 28.67%)
+% User (Computation): 81.26%
+% System (I/O)      : 18.74%
+Mem reserved        : 16G
+Max Mem used        : 3.86M (cn130,cn131)
+Max Disk Write      : 0.00  (cn130,cn131)
+Max Disk Read       : 0.00  (cn130,cn131)
+
+
+
+###############################################################################
+Science Cluster
+Job 162458 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:58:09 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T20:51:04
+Start               : 2023-05-26T20:54:10
+End                 : 2023-05-26T20:58:09
+Reserved walltime   : 00:05:00
+Used walltime       : 00:03:59
+Used CPU time       : 00:03:23 (efficiency:  5.32%)
+% User (Computation): 36.49%
+% System (I/O)      : 63.51%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (,cn124,cn127,cn131)
+Max Disk Write      : 51.20K (,cn124,cn127,cn131)
+Max Disk Read       : 17.89M (,cn124,cn127,cn131)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn130
+  System call: unlink(2) /dev/shm/vader_segment.cn130.38903.721f0001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3061303] 3 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn128:3061303] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 162455 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:58:51 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T20:51:04
+Start               : 2023-05-26T20:56:41
+End                 : 2023-05-26T20:58:51
+Reserved walltime   : 00:05:00
+Used walltime       : 00:02:10
+Used CPU time       : 00:05:21 (efficiency: 15.44%)
+% User (Computation): 54.75%
+% System (I/O)      : 45.25%
+Mem reserved        : 16G
+Max Mem used        : 3.99G (cn128,cn129,cn131)
+Max Disk Write      : 40.96K (cn128,cn129,cn131)
+Max Disk Read       : 17.61M (cn128,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162449 for user 'dfurmanczyk'
+Finished at: Fri May 26 20:59:39 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn126
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T20:51:04
+Start               : 2023-05-26T20:58:58
+End                 : 2023-05-26T20:59:39
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:41
+Used CPU time       : 00:05:09 (efficiency: 47.18%)
+% User (Computation): 97.06%
+% System (I/O)      :  2.94%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn126)
+Max Disk Write      : 0.00  (cn126)
+Max Disk Read       : 0.00  (cn126)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162471 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:16:54 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T21:12:38
+Start               : 2023-05-26T21:16:09
+End                 : 2023-05-26T21:16:54
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:45
+Used CPU time       : 00:03:27 (efficiency: 28.88%)
+% User (Computation): 80.40%
+% System (I/O)      : 19.60%
+Mem reserved        : 16G
+Max Mem used        : 3.86M (cn130,cn131)
+Max Disk Write      : 0.00  (cn130,cn131)
+Max Disk Read       : 0.00  (cn130,cn131)
+
+
+
+###############################################################################
+Science Cluster
+Job 162477 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:17:18 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T21:12:38
+Start               : 2023-05-26T21:12:38
+End                 : 2023-05-26T21:17:18
+Reserved walltime   : 00:05:00
+Used walltime       : 00:04:40
+Used CPU time       : 00:04:03 (efficiency:  5.45%)
+% User (Computation): 35.83%
+% System (I/O)      : 64.17%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (,cn124,cn129,cn131)
+Max Disk Write      : 51.20K (,cn124,cn129,cn131)
+Max Disk Read       : 17.89M (,cn124,cn129,cn131)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn130
+  System call: unlink(2) /dev/shm/vader_segment.cn130.38903.25bd0001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3072405] 3 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn128:3072405] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 162474 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:17:31 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T21:12:38
+Start               : 2023-05-26T21:14:39
+End                 : 2023-05-26T21:17:31
+Reserved walltime   : 00:05:00
+Used walltime       : 00:02:52
+Used CPU time       : 00:07:18 (efficiency: 15.93%)
+% User (Computation): 57.00%
+% System (I/O)      : 43.00%
+Mem reserved        : 16G
+Max Mem used        : 3.99G (cn128,cn129,cn131)
+Max Disk Write      : 40.96K (cn128,cn129,cn131)
+Max Disk Read       : 17.61M (cn128,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162468 for user 'dfurmanczyk'
+Finished at: Fri May 26 21:18:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn126
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-26T21:12:38
+Start               : 2023-05-26T21:18:05
+End                 : 2023-05-26T21:18:47
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:42
+Used CPU time       : 00:05:10 (efficiency: 46.19%)
+% User (Computation): 97.08%
+% System (I/O)      :  2.92%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn126)
+Max Disk Write      : 0.00  (cn126)
+Max Disk Read       : 0.00  (cn126)
+
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162740 ON cn124 CANCELLED AT 2023-05-27T00:53:56 ***
+
+
+###############################################################################
+Science Cluster
+Job 162740 for user 'dfurmanczyk'
+Finished at: Sat May 27 00:53:57 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : CANCELLED,CANCELLED by 38903
+Submit              : 2023-05-27T00:53:31
+Start               : 2023-05-27T00:53:31
+End                 : 2023-05-27T00:53:57
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:26
+Used CPU time       : 00:00:24 (efficiency:  5.98%)
+% User (Computation): 82.00%
+% System (I/O)      : 18.00%
+Mem reserved        : 16G
+Max Mem used        : 1.90G (,cn124,cn126,cn128)
+Max Disk Write      : 0.00  (,cn124,cn126,cn128)
+Max Disk Read       : 0.00  (,cn124,cn126,cn128)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162749 for user 'dfurmanczyk'
+Finished at: Sat May 27 00:59:25 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T00:55:09
+Start               : 2023-05-27T00:58:41
+End                 : 2023-05-27T00:59:25
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:44
+Used CPU time       : 00:03:28 (efficiency: 29.66%)
+% User (Computation): 80.81%
+% System (I/O)      : 19.19%
+Mem reserved        : 16G
+Max Mem used        : 3.87M (cn130,cn131)
+Max Disk Write      : 0.00  (cn130,cn131)
+Max Disk Read       : 0.00  (cn130,cn131)
+
+slurmstepd: error: *** JOB 162755 ON cn124 CANCELLED AT 2023-05-27T01:00:15 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn130
+  System call: unlink(2) /dev/shm/vader_segment.cn130.38903.96560001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3166816] 1 more process has sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn128:3166816] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+                                                                                                                                                                                                                            
+
+###############################################################################
+Science Cluster
+Job 162752 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:00:19 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T00:55:09
+Start               : 2023-05-27T00:57:40
+End                 : 2023-05-27T01:00:19
+Reserved walltime   : 00:05:00
+Used walltime       : 00:02:39
+Used CPU time       : 00:05:48 (efficiency: 13.70%)
+% User (Computation): 51.32%
+% System (I/O)      : 48.68%
+Mem reserved        : 16G
+Max Mem used        : 3.99G (cn128,cn129,cn130,cn131)
+Max Disk Write      : 40.96K (cn128,cn129,cn130,cn131)
+Max Disk Read       : 17.61M (cn128,cn129,cn130,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162746 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:01:48 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn126
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T00:55:09
+Start               : 2023-05-27T01:01:07
+End                 : 2023-05-27T01:01:48
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:41
+Used CPU time       : 00:05:09 (efficiency: 47.17%)
+% User (Computation): 97.06%
+% System (I/O)      :  2.94%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn126)
+Max Disk Write      : 0.00  (cn126)
+Max Disk Read       : 0.00  (cn126)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162833 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:25:43 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn126
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T01:25:01
+Start               : 2023-05-27T01:25:02
+End                 : 2023-05-27T01:25:43
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:41
+Used CPU time       : 00:05:09 (efficiency: 47.19%)
+% User (Computation): 97.08%
+% System (I/O)      :  2.92%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn126)
+Max Disk Write      : 0.00  (cn126)
+Max Disk Read       : 0.00  (cn126)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162836 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:34:31 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[130-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T01:25:02
+Start               : 2023-05-27T01:33:46
+End                 : 2023-05-27T01:34:31
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:45
+Used CPU time       : 00:03:27 (efficiency: 28.88%)
+% User (Computation): 81.16%
+% System (I/O)      : 18.84%
+Mem reserved        : 16G
+Max Mem used        : 3.86M (cn130,cn131)
+Max Disk Write      : 0.00  (cn130,cn131)
+Max Disk Read       : 0.00  (cn130,cn131)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn130
+  System call: unlink(2) /dev/shm/vader_segment.cn130.38903.4fcf0001.1
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3181561] 3 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn128:3181561] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 162839 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:35:08 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T01:25:02
+Start               : 2023-05-27T01:32:15
+End                 : 2023-05-27T01:35:07
+Reserved walltime   : 00:05:00
+Used walltime       : 00:02:52
+Used CPU time       : 00:07:16 (efficiency: 15.86%)
+% User (Computation): 56.15%
+% System (I/O)      : 43.85%
+Mem reserved        : 16G
+Max Mem used        : 3.99G (cn128,cn129,cn130,cn131)
+Max Disk Write      : 40.96K (cn128,cn129,cn130,cn131)
+Max Disk Read       : 17.61M (cn128,cn129,cn130,cn131)
+
+
+
+###############################################################################
+Science Cluster
+Job 162842 for user 'dfurmanczyk'
+Finished at: Sat May 27 01:35:13 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T01:25:02
+Start               : 2023-05-27T01:30:20
+End                 : 2023-05-27T01:35:13
+Reserved walltime   : 00:05:00
+Used walltime       : 00:04:53
+Used CPU time       : 00:04:17 (efficiency:  5.50%)
+% User (Computation): 35.40%
+% System (I/O)      : 64.60%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (,cn124,cn129,cn130)
+Max Disk Write      : 51.20K (,cn124,cn129,cn130)
+Max Disk Read       : 17.89M (,cn124,cn129,cn130)
+
+make: 'bin/stencil_mpi' is up to date.
+slurmstepd: error: *** JOB 162962 ON cn128 CANCELLED AT 2023-05-27T12:47:14 ***
+
+
+###############################################################################
+Science Cluster
+Job 162962 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:47:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : CANCELLED,CANCELLED by 38903
+Submit              : 2023-05-27T12:46:26
+Start               : 2023-05-27T12:46:26
+End                 : 2023-05-27T12:47:16
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:50
+Used CPU time       : 00:00:51 (efficiency:  6.45%)
+% User (Computation): 69.65%
+% System (I/O)      : 30.35%
+Mem reserved        : 16G
+Max Mem used        : 3.98G (,cn128,cn129,cn131)
+Max Disk Write      : 0.00  (,cn128,cn129,cn131)
+Max Disk Read       : 0.00  (,cn128,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162975 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:52:37 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T12:47:44
+Start               : 2023-05-27T12:51:45
+End                 : 2023-05-27T12:52:37
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:52
+Used CPU time       : 00:03:43 (efficiency: 26.82%)
+% User (Computation): 77.78%
+% System (I/O)      : 22.22%
+Mem reserved        : 16G
+Max Mem used        : 3.86M (cn124,cn131)
+Max Disk Write      : 0.00  (cn124,cn131)
+Max Disk Read       : 0.00  (cn124,cn131)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn124
+  System call: unlink(2) /dev/shm/vader_segment.cn124.38903.38040001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn124:3715358] 1 more process has sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn124:3715358] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 162978 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:54:24 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,129-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T12:47:44
+Start               : 2023-05-27T12:50:45
+End                 : 2023-05-27T12:54:24
+Reserved walltime   : 00:05:00
+Used walltime       : 00:03:39
+Used CPU time       : 00:06:54 (efficiency: 11.84%)
+% User (Computation): 47.56%
+% System (I/O)      : 52.44%
+Mem reserved        : 16G
+Max Mem used        : 3.98G (cn124,cn129,cn131)
+Max Disk Write      : 40.96K (cn124,cn129,cn131)
+Max Disk Read       : 17.60M (cn124,cn129,cn131)
+
+slurmstepd: error: *** JOB 162981 ON cn124 CANCELLED AT 2023-05-27T12:54:32 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Science Cluster
+Job 162981 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:54:44 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : TIMEOUT,CANCELLED,FAILED
+Submit              : 2023-05-27T12:47:44
+Start               : 2023-05-27T12:49:21
+End                 : 2023-05-27T12:54:44
+Reserved walltime   : 00:05:00
+Used walltime       : 00:05:23
+Used CPU time       : 00:02:41 (efficiency:  3.12%)
+% User (Computation): 40.75%
+% System (I/O)      : 59.25%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (cn124,cn125,cn130,cn131)
+Max Disk Write      : 51.20K (cn124,cn125,cn130,cn131)
+Max Disk Read       : 17.89M (cn124,cn129,cn130,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 162972 for user 'dfurmanczyk'
+Finished at: Sat May 27 12:56:12 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn127
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T12:47:43
+Start               : 2023-05-27T12:55:31
+End                 : 2023-05-27T12:56:12
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:41
+Used CPU time       : 00:05:09 (efficiency: 47.18%)
+% User (Computation): 97.07%
+% System (I/O)      :  2.93%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn127)
+Max Disk Write      : 0.00  (cn127)
+Max Disk Read       : 0.00  (cn127)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+
+
+###############################################################################
+Science Cluster
+Job 163004 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:06:58 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:06:55
+Start               : 2023-05-27T13:06:58
+End                 : 2023-05-27T13:06:58
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 100.00%
+% System (I/O)      :  0.00%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn124)
+Max Disk Write      : 0.00  (cn124)
+Max Disk Read       : 0.00  (cn124)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failsalloc: error: Job submit/allocate failed: No partition specified or system default partition
+ed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+ter
+Job 163001 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:06:59 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[126-129]
+Cores               : 16
+State               : RUNNING
+Submit              : 2023-05-27T13:06:55
+Start               : 2023-05-27T13:06:59
+End                 : --
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 16G
+Max Mem used        : 0.00  ()
+Max Disk Write      : 0.00  ()
+Max Disk Read       : 0.00  ()
+
+
+
+###############################################################################
+Science Cluster
+Job 162998 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:06:59 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-129]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:06:55
+Start               : 2023-05-27T13:06:59
+End                 : 2023-05-27T13:06:59
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 59.18%
+% System (I/O)      : 38.78%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn128)
+Max Disk Write      : 0.00  (cn128)
+Max Disk Read       : 0.00  (cn128)
+
+
+
+###############################################################################
+Science Cluster
+Job 162995 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:07:00 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn129
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:06:55
+Start               : 2023-05-27T13:06:59
+End                 : 2023-05-27T13:06:59
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 60.87%
+% System (I/O)      : 39.13%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn129)
+Max Disk Write      : 0.00  (cn129)
+Max Disk Read       : 0.00  (cn129)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+
+
+###############################################################################
+Science Cluster
+Job 163020 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:08:00 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : dfurmanczyk
+Partition           : 
+Nodes               : cn124
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:07:59
+Start               : 2023-05-27T13:08:00
+End                 : 2023-05-27T13:08:00
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 100.00%
+% System (I/O)      :  0.00%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn124)
+Max Disk Write      : 0.00  (cn124)
+Max Disk Read       : 0.00  (cn124)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+
+
+###############################################################################
+Science Cluster
+Job 163017 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:08:48 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124,128-130]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:07:59
+Start               : 2023-05-27T13:08:48
+End                 : 2023-05-27T13:08:48
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 86.21%
+% System (I/O)      : 13.79%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn124)
+Max Disk Write      : 0.00  (cn124)
+Max Disk Read       : 0.00  (cn124)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+salloc: error: Job submit/allocate failed: No partition specified or system default partition
+
+
+###############################################################################
+Science Cluster
+Job 163014 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:08:57 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[127-128]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:07:59
+Start               : 2023-05-27T13:08:56
+End                 : 2023-05-27T13:08:57
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:01
+Used CPU time       : --
+% User (Computation): 75.61%
+% System (I/O)      : 24.39%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn127)
+Max Disk Write      : 0.00  (cn127)
+Max Disk Read       : 0.00  (cn127)
+
+
+
+###############################################################################
+Science Cluster
+Job 163011 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:08:57 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn131
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:07:59
+Start               : 2023-05-27T13:08:56
+End                 : 2023-05-27T13:08:57
+Reserved walltime   : 00:05:00
+Used walltime       : 00:00:01
+Used CPU time       : --
+% User (Computation): 76.27%
+% System (I/O)      : 23.73%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn131)
+Max Disk Write      : 0.00  (cn131)
+Max Disk Read       : 0.00  (cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: Invalid account or account/partition combination specified
+salloc: error: Job submit/allocate failed: Invalid account or account/partition combination specified
+salloc: error: Job submit/allocate failed: Invalid account or account/partition combination specified
+
+
+###############################################################################
+Science Cluster
+Job 163038 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:14:47 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:14:41
+Start               : 2023-05-27T13:14:47
+End                 : 2023-05-27T13:14:47
+Reserved walltime   : 00:05:00
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 89.66%
+% System (I/O)      :  6.90%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn124)
+Max Disk Write      : 0.00  (cn124)
+Max Disk Read       : 0.00  (cn124)
+
+make: 'bin/stencil_mpi' is up to date.
+salloc: error: Job submit/allocate failed: Invalid account or account/partition combination specified
+salloc: error: Job submit/allocate failed: Invalid account or account/partition combination specified
+salloc: error: Job submit/allocate failed: Invalid account or account/partition combination specified
+
+
+###############################################################################
+Science Cluster
+Job 163053 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:15:31 CEST 2023
+
+Job details:
+============
+
+Name                : allocation
+User                : dfurmanczyk
+Partition           : 
+Nodes               : cn124
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:15:30
+Start               : 2023-05-27T13:15:31
+End                 : 2023-05-27T13:15:31
+Reserved walltime   : --
+Used walltime       : --
+Used CPU time       : --
+% User (Computation): 79.31%
+% System (I/O)      : 17.24%
+Mem reserved        : 16?
+Max Mem used        : 0.00  (cn124)
+Max Disk Write      : 0.00  (cn124)
+Max Disk Read       : 0.00  (cn124)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 163179 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:46:37 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:43:21
+Start               : 2023-05-27T13:43:22
+End                 : 2023-05-27T13:46:37
+Reserved walltime   : 00:10:00
+Used walltime       : 00:03:15
+Used CPU time       : 00:10:52 (efficiency: 20.92%)
+% User (Computation): 44.94%
+% System (I/O)      : 55.06%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (cn124,cn125,cn128,cn131)
+Max Disk Write      : 51.20K (cn124,cn125,cn128,cn131)
+Max Disk Read       : 17.89M (cn124,cn128,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 163173 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:53:27 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[126-127]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:43:21
+Start               : 2023-05-27T13:52:41
+End                 : 2023-05-27T13:53:27
+Reserved walltime   : 00:10:00
+Used walltime       : 00:00:46
+Used CPU time       : 00:03:30 (efficiency: 28.62%)
+% User (Computation): 80.34%
+% System (I/O)      : 19.66%
+Mem reserved        : 16G
+Max Mem used        : 3.87M (cn126,cn127)
+Max Disk Write      : 0.00  (cn126,cn127)
+Max Disk Read       : 0.00  (cn126,cn127)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn124
+  System call: unlink(2) /dev/shm/vader_segment.cn124.38903.cbb60001.5
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn124:3752621] 7 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn124:3752621] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 163170 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:54:08 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn124
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:43:21
+Start               : 2023-05-27T13:53:26
+End                 : 2023-05-27T13:54:08
+Reserved walltime   : 00:10:00
+Used walltime       : 00:00:42
+Used CPU time       : 00:05:10 (efficiency: 46.18%)
+% User (Computation): 97.08%
+% System (I/O)      :  2.92%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn124)
+Max Disk Write      : 0.00  (cn124)
+Max Disk Read       : 0.00  (cn124)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn128
+  System call: unlink(2) /dev/shm/vader_segment.cn128.38903.42ae0001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3507869] 1 more process has sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn128:3507869] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 163176 for user 'dfurmanczyk'
+Finished at: Sat May 27 13:54:10 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T13:43:21
+Start               : 2023-05-27T13:51:56
+End                 : 2023-05-27T13:54:10
+Reserved walltime   : 00:10:00
+Used walltime       : 00:02:14
+Used CPU time       : 00:06:26 (efficiency: 18.01%)
+% User (Computation): 60.39%
+% System (I/O)      : 39.61%
+Mem reserved        : 16G
+Max Mem used        : 3.98G (cn128,cn129,cn130,cn131)
+Max Disk Write      : 40.96K (cn128,cn129,cn130,cn131)
+Max Disk Read       : 17.61M (cn128,cn129,cn130,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 163295 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:09:37 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:17
+Start               : 2023-05-27T14:06:17
+End                 : 2023-05-27T14:09:36
+Reserved walltime   : 00:10:00
+Used walltime       : 00:03:19
+Used CPU time       : 00:11:18 (efficiency: 21.32%)
+% User (Computation): 44.60%
+% System (I/O)      : 55.40%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (cn124,cn125,cn128,cn131)
+Max Disk Write      : 51.20K (cn124,cn125,cn128,cn131)
+Max Disk Read       : 17.89M (cn124,cn128,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 163325 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:18:00 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:21
+Start               : 2023-05-27T14:11:22
+End                 : 2023-05-27T14:18:00
+Reserved walltime   : 00:10:00
+Used walltime       : 00:06:38
+Used CPU time       : 00:14:44 (efficiency: 13.89%)
+% User (Computation): 38.70%
+% System (I/O)      : 61.30%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (cn124,cn125,cn126,cn128)
+Max Disk Write      : 51.20K (cn124,cn125,cn126,cn128)
+Max Disk Read       : 17.89M (cn124,cn126,cn128,cn129)
+
+
+
+###############################################################################
+Science Cluster
+Job 163310 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:18:07 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:19
+Start               : 2023-05-27T14:11:22
+End                 : 2023-05-27T14:18:07
+Reserved walltime   : 00:10:00
+Used walltime       : 00:06:45
+Used CPU time       : 00:15:23 (efficiency: 14.25%)
+% User (Computation): 38.42%
+% System (I/O)      : 61.58%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (cn124,cn125,cn131)
+Max Disk Write      : 51.20K (cn124,cn125,cn131)
+Max Disk Read       : 17.89M (cn124,cn129,cn131)
+
+
+
+###############################################################################
+Science Cluster
+Job 163340 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:18:17 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:22
+Start               : 2023-05-27T14:12:25
+End                 : 2023-05-27T14:18:17
+Reserved walltime   : 00:10:00
+Used walltime       : 00:05:52
+Used CPU time       : 00:13:14 (efficiency: 14.11%)
+% User (Computation): 37.86%
+% System (I/O)      : 62.14%
+Mem reserved        : 16G
+Max Mem used        : 1.99G (cn124,cn125,cn131)
+Max Disk Write      : 51.20K (cn124,cn125,cn131)
+Max Disk Read       : 17.89M (cn124,cn129,cn131)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn128
+  System call: unlink(2) /dev/shm/vader_segment.cn128.38903.6aa0001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3523225] 1 more process has sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn128:3523225] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 163307 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:26:15 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:19
+Start               : 2023-05-27T14:21:16
+End                 : 2023-05-27T14:26:15
+Reserved walltime   : 00:10:00
+Used walltime       : 00:04:59
+Used CPU time       : 00:12:55 (efficiency: 16.20%)
+% User (Computation): 56.77%
+% System (I/O)      : 43.23%
+Mem reserved        : 16G
+Max Mem used        : 3.99G (cn128,cn129,cn130)
+Max Disk Write      : 40.96K (cn128,cn129,cn130)
+Max Disk Read       : 17.61M (cn128,cn129,cn130)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn128
+  System call: unlink(2) /dev/shm/vader_segment.cn128.38903.6c40001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3523319] [[1732,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn128
+  System call: unlink(2) /dev/shm/vader_segment.cn128.38903.6db0001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3523304] [[1755,0],0] ORTE_ERROR_LOG: Out of resource in file ../../../orte/util/show_help.c at line 507
+
+
+###############################################################################
+Science Cluster
+Job 163337 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:26:18 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:22
+Start               : 2023-05-27T14:21:17
+End                 : 2023-05-27T14:26:18
+Reserved walltime   : 00:10:00
+Used walltime       : 00:05:01
+Used CPU time       : 00:13:04 (efficiency: 16.28%)
+% User (Computation): 55.66%
+% System (I/O)      : 44.34%
+Mem reserved        : 16G
+Max Mem used        : 3.99G (cn128,cn129,cn130)
+Max Disk Write      : 40.96K (cn128,cn129,cn130)
+Max Disk Read       : 17.61M (cn128,cn129,cn130)
+
+
+
+###############################################################################
+Science Cluster
+Job 163322 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:26:18 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : RUNNING
+Submit              : 2023-05-27T14:06:21
+Start               : 2023-05-27T14:21:17
+End                 : --
+Reserved walltime   : 00:10:00
+Used walltime       : 00:05:01
+Used CPU time       : 00:10:16 (efficiency: 12.81%)
+% User (Computation): 54.54%
+% System (I/O)      : 45.46%
+Mem reserved        : 16G
+Max Mem used        : 2.35G (cn129,cn131)
+Max Disk Write      : 0.00  (cn129,cn131)
+Max Disk Read       : 6.69M (cn129,cn131)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn128
+  System call: unlink(2) /dev/shm/vader_segment.cn128.38903.6a50001.0
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3523222] [[1701,0],0] ORTE_ERROR_LOG: Out of resource in file ../../../orte/util/show_help.c at line 501
+
+
+###############################################################################
+Science Cluster
+Job 163292 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:26:19 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[128-131]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:17
+Start               : 2023-05-27T14:21:16
+End                 : 2023-05-27T14:26:19
+Reserved walltime   : 00:10:00
+Used walltime       : 00:05:03
+Used CPU time       : 00:13:04 (efficiency: 16.18%)
+% User (Computation): 56.29%
+% System (I/O)      : 43.71%
+Mem reserved        : 16G
+Max Mem used        : 3.99G (cn128,cn129,cn130)
+Max Disk Write      : 40.96K (cn128,cn129,cn130)
+Max Disk Read       : 17.61M (cn128,cn129,cn130)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 163304 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:27:50 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[126-127]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:19
+Start               : 2023-05-27T14:27:05
+End                 : 2023-05-27T14:27:49
+Reserved walltime   : 00:10:00
+Used walltime       : 00:00:44
+Used CPU time       : 00:03:29 (efficiency: 29.73%)
+% User (Computation): 81.58%
+% System (I/O)      : 18.42%
+Mem reserved        : 16G
+Max Mem used        : 3.86M (cn126,cn127)
+Max Disk Write      : 0.00  (cn126,cn127)
+Max Disk Read       : 0.00  (cn126,cn127)
+
+
+
+###############################################################################
+Science Cluster
+Job 163289 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:27:51 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[124-125]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:17
+Start               : 2023-05-27T14:27:05
+End                 : 2023-05-27T14:27:51
+Reserved walltime   : 00:10:00
+Used walltime       : 00:00:46
+Used CPU time       : 00:03:29 (efficiency: 28.42%)
+% User (Computation): 80.69%
+% System (I/O)      : 19.31%
+Mem reserved        : 16G
+Max Mem used        : 3.86M (cn124,cn125)
+Max Disk Write      : 0.00  (cn124,cn125)
+Max Disk Read       : 0.00  (cn124,cn125)
+
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 163301 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:37:51 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn128
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:19
+Start               : 2023-05-27T14:37:09
+End                 : 2023-05-27T14:37:51
+Reserved walltime   : 00:10:00
+Used walltime       : 00:00:42
+Used CPU time       : 00:05:09 (efficiency: 46.11%)
+% User (Computation): 97.07%
+% System (I/O)      :  2.93%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn128)
+Max Disk Write      : 0.00  (cn128)
+Max Disk Read       : 0.00  (cn128)
+
+
+
+###############################################################################
+Science Cluster
+Job 163286 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:37:51 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn127
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:17
+Start               : 2023-05-27T14:37:09
+End                 : 2023-05-27T14:37:51
+Reserved walltime   : 00:10:00
+Used walltime       : 00:00:42
+Used CPU time       : 00:05:09 (efficiency: 46.07%)
+% User (Computation): 97.05%
+% System (I/O)      :  2.95%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn127)
+Max Disk Write      : 0.00  (cn127)
+Max Disk Read       : 0.00  (cn127)
+
+make: 'bin/stencil_mpi' is up to date.
+
+
+###############################################################################
+Science Cluster
+Job 163319 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:38:29 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[129-130]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:21
+Start               : 2023-05-27T14:37:05
+End                 : 2023-05-27T14:38:29
+Reserved walltime   : 00:10:00
+Used walltime       : 00:01:24
+Used CPU time       : 00:06:40 (efficiency: 29.81%)
+% User (Computation): 80.67%
+% System (I/O)      : 19.33%
+Mem reserved        : 16G
+Max Mem used        : 4.61G (cn129,cn130)
+Max Disk Write      : 51.20K (cn129,cn130)
+Max Disk Read       : 17.02M (cn129,cn130)
+
+
+
+###############################################################################
+Science Cluster
+Job 163334 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:38:29 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn[129-130]
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:22
+Start               : 2023-05-27T14:37:05
+End                 : 2023-05-27T14:38:29
+Reserved walltime   : 00:10:00
+Used walltime       : 00:01:24
+Used CPU time       : 00:03:21 (efficiency: 14.97%)
+% User (Computation): 82.80%
+% System (I/O)      : 17.20%
+Mem reserved        : 16G
+Max Mem used        : 4.60G (,cn129,cn130)
+Max Disk Write      : 51.20K (,cn129,cn130)
+Max Disk Read       : 17.02M (,cn129,cn130)
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cn128
+  System call: unlink(2) /dev/shm/vader_segment.cn128.38903.26590001.3
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cn128:3531370] 7 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[cn128:3531370] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
+###############################################################################
+Science Cluster
+Job 163331 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:38:32 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn127
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:22
+Start               : 2023-05-27T14:37:51
+End                 : 2023-05-27T14:38:32
+Reserved walltime   : 00:10:00
+Used walltime       : 00:00:41
+Used CPU time       : 00:05:09 (efficiency: 47.20%)
+% User (Computation): 97.09%
+% System (I/O)      :  2.91%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn127)
+Max Disk Write      : 0.00  (cn127)
+Max Disk Read       : 0.00  (cn127)
+
+
+
+###############################################################################
+Science Cluster
+Job 163316 for user 'dfurmanczyk'
+Finished at: Sat May 27 14:38:32 CEST 2023
+
+Job details:
+============
+
+Name                : run_mpi_8.sh
+User                : dfurmanczyk
+Partition           : csmpi_short
+Nodes               : cn128
+Cores               : 16
+State               : COMPLETED
+Submit              : 2023-05-27T14:06:21
+Start               : 2023-05-27T14:37:51
+End                 : 2023-05-27T14:38:32
+Reserved walltime   : 00:10:00
+Used walltime       : 00:00:41
+Used CPU time       : 00:05:09 (efficiency: 47.25%)
+% User (Computation): 97.08%
+% System (I/O)      :  2.92%
+Mem reserved        : 16G
+Max Mem used        : 0.00  (cn128)
+Max Disk Write      : 0.00  (cn128)
+Max Disk Read       : 0.00  (cn128)
+
